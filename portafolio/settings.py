@@ -88,6 +88,9 @@ TEMPLATES = [
 WSGI_APPLICATION = 'portafolio.wsgi.application'
 
 
+import os
+print(f"DATABASE_URL from env: {os.environ.get('DATABASE_URL')}")
+
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
