@@ -16,7 +16,8 @@ staticfiles/
 
 # Log files
 *.log
-
+server_error_log.txt
+server_log.txt
 
 # IDE files
 .vscode/
