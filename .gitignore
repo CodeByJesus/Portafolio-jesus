@@ -1,0 +1,27 @@
+# Byte-code files
+*.pyc
+__pycache__/
+
+# Environment variables
+.env
+
+# Database
+db.sqlite3
+
+# Virtual environment
+venv/
+
+# Static files
+staticfiles/
+
+# Log files
+*.log
+*.txt
+
+# IDE files
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+thumbs.db

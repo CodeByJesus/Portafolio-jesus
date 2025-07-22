@@ -1,0 +1,196 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  position: relative;
+  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+}
+
+/* Contenido principal encima del fondo */
+main, header, nav, .container {
+  position: relative;
+  z-index: 10;
+  min-height: 100vh;
+}
+
+/* Tarjetas y animaciones del contenido */
+.card {
+  transition: transform 0.2s, box-shadow 0.2s;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+.card:hover {
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+}
+
+/* Estilos para las tarjetas de proyecto */
+.project-card {
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  transition: background-color 0.3s, border-color 0.3s, transform 0.3s;
+  color: #fff;
+}
+
+.project-card:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-color: #0dcaf0;
+  transform: translateY(-5px);
+}
+
+.project-card .card-title {
+  color: #0dcaf0;
+  font-weight: bold;
+}
+
+.project-card .card-text {
+  color: #adb5bd;
+}
+
+.project-card .btn-outline-light {
+  border-color: #0dcaf0;
+  color: #0dcaf0;
+}
+
+.project-card .btn-outline-light:hover {
+  background-color: #0dcaf0;
+  color: #1b2735;
+}
+
+.tecnologias-container p {
+  margin-bottom: 0;
+}
+
+/* Estilos para la sección de Conocimientos */
+#conocimientos h4 {
+  color: #0dcaf0;
+  font-weight: bold;
+}
+
+.conocimiento-item {
+  background-color: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.1rem;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.conocimiento-item:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+  transform: translateY(-3px);
+}
+
+.conocimiento-item i {
+  font-size: 1.8rem;
+}
+
+/* Estilos para la sección de Contacto */
+#contacto {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+#contacto .form-control {
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+
+#contacto .form-control:focus {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-color: #0dcaf0;
+  box-shadow: none;
+  color: #fff;
+}
+
+.social-icon i {
+  font-size: 2rem;
+  color: #adb5bd;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.social-icon:hover i {
+  color: #0dcaf0;
+  transform: scale(1.1);
+}
+
+
+/* Botones estilizados */
+.btn-primary {
+  background: linear-gradient(90deg, #0d6efd 60%, #0dcaf0 100%);
+  border: none;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+.btn-primary:hover {
+  background: linear-gradient(90deg, #0dcaf0 0%, #0d6efd 100%);
+}
+
+/* Títulos animados */
+.nombre-animado {
+  font-size: 3.5rem;
+  font-weight: bold;
+  background: linear-gradient(90deg, #0d6efd, #6610f2, #20c997, #0d6efd);
+  background-size: 300% 300%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient-move 3s ease-in-out infinite;
+  font-family: 'Montserrat', Arial, sans-serif;
+
+}
+
+@keyframes gradient-move {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.profile-pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #0dcaf0;
+  box-shadow: 0 4px 15px rgba(0, 202, 240, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile-pic:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 30px rgba(0, 202, 240, 0.4);
+}
+
+.svg-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  pointer-events: none;
+}
+
+#stars {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.cometa {
+  stroke: url(#fugaz-grad);
+  stroke-width: 3px;
+  filter: blur(2px);
+}
