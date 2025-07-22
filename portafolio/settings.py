@@ -27,12 +27,20 @@ SECRET_KEY = os.environ.get('SECRET_KEY', 'django-insecure-0)6(#h&c(b=rn_a53f*5d
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.environ.get('DEBUG', 'False') == 'True'
 
-ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS', '').split(',')
-
-if not DEBUG:
+if DEBUG:
+    ALLOWED_HOSTS = ['*'] # Allow all hosts in debug mode for easier local development
+else:
+    ALLOWED_HOSTS = []
+    # Add Render's external hostname
     RENDER_EXTERNAL_HOSTNAME = os.environ.get('RENDER_EXTERNAL_HOSTNAME')
     if RENDER_EXTERNAL_HOSTNAME:
         ALLOWED_HOSTS.append(RENDER_EXTERNAL_HOSTNAME)
+
+    # Add any other hosts specified in the ALLOWED_HOSTS environment variable
+    # This allows for custom domains in addition to Render's default.
+    custom_allowed_hosts = os.environ.get('ALLOWED_HOSTS', '')
+    if custom_allowed_hosts:
+        ALLOWED_HOSTS.extend(custom_allowed_hosts.split(','))
 
 # Application definition
 
