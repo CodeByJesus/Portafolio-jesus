@@ -105,9 +105,9 @@
         <div class="card project-card h-100">
           <div class="card-body d-flex flex-column">
             <h5 class="card-title">{{ proyecto.titulo }}</h5>
-            <p class="card-text flex-grow-1">{{ proyecto.display_descripcion }}</p>
+            <p class="card-text flex-grow-1">{{ proyecto.descripcion }}</p>
             <div class="tecnologias-container mt-auto">
-              <p><strong>{% trans "Tecnologías:" %}</strong> {{ proyecto.display_tecnologias }}</p>
+              <p><strong>{% trans "Tecnologías:" %}</strong> {{ proyecto.tecnologias }}</p>
             </div>
             {% if proyecto.enlace %}
               <a href="{{ proyecto.enlace }}" class="btn btn-outline-light mt-3" target="_blank">{% trans "Ver proyecto" %}</a>
