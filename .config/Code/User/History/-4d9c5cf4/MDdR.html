@@ -1,0 +1,27 @@
+{% block contenido %}
+<section class="text-center mb-5">
+  <h2 class="fw-bold">Recent Work</h2>
+  <p class="text-muted">Algunos de mis proyectos recientes desarrollados con pasión y precisión.</p>
+</section>
+
+<div class="row row-cols-1 row-cols-md-3 g-4">
+  {% for proyecto in proyectos %}
+    <div class="col">
+      <div class="card h-100 shadow-sm">
+        {% if proyecto.imagen %}
+          <img src="{{ proyecto.imagen.url }}" class="card-img-top" alt="{{ proyecto.titulo }}">
+        {% endif %}
+        <div class="card-body">
+          <h5 class="card-title">{{ proyecto.titulo }}</h5>
+          <p class="card-text">{{ proyecto.descripcion }}</p>
+        </div>
+        <div class="card-footer bg-transparent border-0">
+          {% if proyecto.enlace %}
+            <a href="{{ proyecto.enlace }}" target="_blank" class="btn btn-outline-dark w-100">Ver proyecto</a>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+</div>
+{% endblock %}

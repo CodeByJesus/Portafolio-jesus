@@ -1,0 +1,6 @@
+2025-07-16 11:33:26.397 [info] update#setState idle
+2025-07-16 11:33:56.411 [info] update#setState checking for updates
+2025-07-16 11:33:56.553 [info] update#setState available for download
+2025-07-16 11:36:21.306 [info] Extension host with pid 11670 exited with code: 0, signal: unknown.
+2025-07-16 11:36:21.378 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 11672]: crashed with code 15 and reason 'killed'
+2025-07-16 11:53:42.945 [info] Extension host with pid 12070 exited with code: 0, signal: unknown.

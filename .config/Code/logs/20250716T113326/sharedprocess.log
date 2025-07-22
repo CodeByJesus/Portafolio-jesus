@@ -1,0 +1,8 @@
+2025-07-16 11:33:29.552 [info] Deleted marked for removal extension from disk jeffersonlicet.snipped /home/jesus/.vscode/extensions/jeffersonlicet.snipped-1.3.0
+2025-07-16 11:33:29.553 [info] Deleted marked for removal extension from disk jannik.htmlsnippets /home/jesus/.vscode/extensions/jannik.htmlsnippets-1.0.5
+2025-07-16 11:37:10.397 [info] Getting Manifest... astro-build.astro-vscode
+2025-07-16 11:37:10.776 [info] Installing extension: astro-build.astro-vscode {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/jesus/.vscode/extensions/extensions.json","path":"/home/jesus/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.102.0","date":"2025-07-09T22:10:34.600Z"}}
+2025-07-16 11:37:13.516 [info] Extension signature verification result for astro-build.astro-vscode: Success. Internal Code: 0. Executed: true. Duration: 1048ms.
+2025-07-16 11:37:13.963 [info] Extracted extension to file:///home/jesus/.vscode/extensions/astro-build.astro-vscode-2.15.4-linux-x64: astro-build.astro-vscode
+2025-07-16 11:37:13.989 [info] Renamed to /home/jesus/.vscode/extensions/astro-build.astro-vscode-2.15.4-linux-x64
+2025-07-16 11:37:14.021 [info] Extension installed successfully: astro-build.astro-vscode vscode-userdata:/home/jesus/.vscode/extensions/extensions.json

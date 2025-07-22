@@ -1,0 +1,19 @@
+2025-07-21 18:34:56.006 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vsliveshare.vsliveshare' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-21 18:34:56.020 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.gather' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-21 18:34:56.020 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-pylance' wants API proposal 'mcpConfigurationProvider' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-21 18:34:56.463 [info] Started local extension host with pid 3356.
+2025-07-21 18:34:57.323 [error] Extension 'ms-python.vscode-pylance' wants API proposal 'mcpConfigurationProvider' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-21 18:35:05.111 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-07-21 18:35:05.396 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/jesus/.config/Code/User/settings.json: Expected ',' or '}' after property value in JSON at position 42 (line 5 column 6)
+2025-07-21 18:35:05.972 [info] [perf] Render performance baseline is 29ms
+2025-07-21 18:35:06.760 [info] Auto updating outdated extensions. ms-python.python
+2025-07-21 18:35:18.083 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vsliveshare.vsliveshare' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-21 18:35:18.084 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.gather' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-21 18:35:18.085 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-pylance' wants API proposal 'mcpConfigurationProvider' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-21 18:35:18.399 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2025-07-21 18:35:18.736 [info] Started local extension host with pid 3707.
+2025-07-21 18:35:19.487 [error] Extension 'ms-python.vscode-pylance' wants API proposal 'mcpConfigurationProvider' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-21 18:35:20.241 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-07-21 18:35:21.128 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/jesus/.config/Code/User/settings.json: Expected ',' or '}' after property value in JSON at position 42 (line 5 column 6)
+2025-07-21 18:35:21.208 [info] [perf] Render performance baseline is 28ms
+2025-07-21 18:35:23.092 [error] Extension 'ms-python.vscode-pylance' wants API proposal 'mcpConfigurationProvider' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.

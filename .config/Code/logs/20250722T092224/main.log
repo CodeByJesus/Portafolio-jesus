@@ -1,0 +1,38 @@
+2025-07-22 09:22:25.099 [info] update#setState idle
+2025-07-22 09:22:55.067 [info] update#setState checking for updates
+2025-07-22 09:22:55.218 [info] update#setState available for download
+2025-07-22 09:47:59.303 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-22 09:48:05.669 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-22 09:52:17.578 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-22 09:53:08.686 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-22 09:55:06.651 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-22 09:55:38.012 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-22 09:55:55.686 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-22 09:56:07.358 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-22 10:01:12.903 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-22 10:03:52.637 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-22 10:03:58.717 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-22 10:04:36.262 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-22 10:11:24.095 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-22 10:36:00.880 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-22 10:38:03.738 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-22 10:40:06.724 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-22 10:41:08.961 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-22 10:42:12.159 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-22 10:45:22.421 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-22 11:13:45.700 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-22 12:02:11.573 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-22 12:06:49.085 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-22 12:07:16.076 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-22 12:07:22.447 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-22 12:08:14.842 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-22 12:10:30.070 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-22 12:10:37.709 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-22 12:20:09.288 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-22 12:20:41.842 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-22 12:21:14.201 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-22 12:21:32.441 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-22 13:05:14.310 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-22 13:06:50.757 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-22 13:07:12.711 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-22 13:15:00.018 [info] Extension host with pid 15697 exited with code: 0, signal: unknown.

@@ -1,0 +1,73 @@
+2025-07-22 05:55:33.898 [info] (Client) Pylance async client (2025.6.2) started with python extension (2025.10.1)
+2025-07-22 05:55:35.112 [info] [Info  - 5:55:35 a. m.] (3412) Server root directory: file:///home/jesus/.vscode/extensions/ms-python.vscode-pylance-2025.6.2/dist
+2025-07-22 05:55:35.114 [info] [Info  - 5:55:35 a. m.] (3412) Pylance language server 2025.6.2 (pyright version 1.1.402, commit 9496ae00) starting
+2025-07-22 05:55:35.122 [info] [Info  - 5:55:35 a. m.] (3412) Starting service instance "portafolio" for workspace "/home/jesus/portafolio"
+2025-07-22 05:55:35.262 [info] [Info  - 5:55:35 a. m.] (3412) Setting environmentName for service "portafolio": "3.12.3 (global)"
+2025-07-22 05:55:35.262 [info] [Info  - 5:55:35 a. m.] (3412) Setting pythonPath for service "portafolio": "/usr/bin/python3"
+2025-07-22 05:55:35.263 [info] [Info  - 5:55:35 a. m.] (3412) No include entries specified; assuming /home/jesus/portafolio
+2025-07-22 05:55:35.263 [info] [Info  - 5:55:35 a. m.] (3412) Auto-excluding **/node_modules
+2025-07-22 05:55:35.264 [info] [Info  - 5:55:35 a. m.] (3412) Auto-excluding **/__pycache__
+2025-07-22 05:55:35.264 [info] [Info  - 5:55:35 a. m.] (3412) Auto-excluding **/.*
+2025-07-22 05:55:35.296 [info] [Info  - 5:55:35 a. m.] (3412) Assuming Python version 3.12.3.final.0
+2025-07-22 05:55:35.542 [info] [Info  - 5:55:35 a. m.] (3412) Found 14 source files
+2025-07-22 05:55:35.586 [info] [Info  - 5:55:35 a. m.] (3412) Setting environmentName for service "portafolio": "3.12.3 (global)"
+2025-07-22 05:55:35.587 [info] [Info  - 5:55:35 a. m.] (3412) Setting pythonPath for service "portafolio": "/usr/bin/python3"
+2025-07-22 05:55:35.587 [info] [Info  - 5:55:35 a. m.] (3412) No include entries specified; assuming /home/jesus/portafolio
+2025-07-22 05:55:35.587 [info] [Info  - 5:55:35 a. m.] (3412) Auto-excluding **/node_modules
+2025-07-22 05:55:35.588 [info] [Info  - 5:55:35 a. m.] (3412) Auto-excluding **/__pycache__
+2025-07-22 05:55:35.588 [info] [Info  - 5:55:35 a. m.] (3412) Auto-excluding **/.*
+2025-07-22 05:55:35.640 [info] [Info  - 5:55:35 a. m.] (3412) Assuming Python version 3.12.3.final.0
+2025-07-22 05:55:35.766 [info] [Info  - 5:55:35 a. m.] (3412) Found 14 source files
+2025-07-22 05:55:38.158 [info] [Info  - 5:55:38 a. m.] (3412) BG: Priority queue background worker(2) root directory: file:///home/jesus/.vscode/extensions/ms-python.vscode-pylance-2025.6.2/dist
+2025-07-22 05:55:38.179 [info] [Info  - 5:55:38 a. m.] (3412) BG: Priority queue background worker(2) started
+2025-07-22 05:55:39.201 [info] [Info  - 5:55:39 a. m.] (3412) BG: Indexer background runner(3) root directory: file:///home/jesus/.vscode/extensions/ms-python.vscode-pylance-2025.6.2/dist (index)
+2025-07-22 05:55:39.201 [info] [Info  - 5:55:39 a. m.] (3412) BG: Indexing(3) started
+2025-07-22 05:55:41.686 [info] [Info  - 5:55:41 a. m.] (3412) BG: scanned(3) 136 files over 1 exec env
+2025-07-22 05:55:42.134 [info] [Info  - 5:55:42 a. m.] (3412) BG: indexed(3) 136 files over 1 exec env
+2025-07-22 05:55:42.199 [info] [Info  - 5:55:42 a. m.] (3412) BG: Indexing finished(3).
+2025-07-22 05:57:13.546 [info] [Info  - 5:57:13 a. m.] (3412) Starting service instance "<default>" for workspace ""
+2025-07-22 05:57:13.612 [info] [Info  - 5:57:13 a. m.] (3412) Setting environmentName for service "<default>": "3.12.3 (global)"
+2025-07-22 05:57:13.612 [info] [Info  - 5:57:13 a. m.] (3412) Setting pythonPath for service "<default>": "/usr/bin/python3"
+2025-07-22 05:57:13.615 [info] [Info  - 5:57:13 a. m.] (3412) No include entries specified; assuming /<default workspace root>
+2025-07-22 05:57:13.615 [info] [Info  - 5:57:13 a. m.] (3412) Auto-excluding **/node_modules
+2025-07-22 05:57:13.615 [info] [Info  - 5:57:13 a. m.] (3412) Auto-excluding **/__pycache__
+2025-07-22 05:57:13.616 [info] [Info  - 5:57:13 a. m.] (3412) Auto-excluding **/.*
+2025-07-22 05:57:13.662 [info] [Info  - 5:57:13 a. m.] (3412) Assuming Python version 3.12.3.final.0
+2025-07-22 05:57:13.751 [info] [Error - 5:57:13 a. m.] (3412) File or directory "/<default workspace root>" does not exist.
+2025-07-22 05:57:13.752 [info] [Info  - 5:57:13 a. m.] (3412) No source files found.
+2025-07-22 05:57:14.571 [info] [Info  - 5:57:14 a. m.] (3412) BG: Priority queue background worker(5) root directory: file:///home/jesus/.vscode/extensions/ms-python.vscode-pylance-2025.6.2/dist
+2025-07-22 05:57:14.573 [info] [Info  - 5:57:14 a. m.] (3412) BG: Priority queue background worker(5) started
+2025-07-22 06:33:24.120 [info] [Info  - 6:33:24 a. m.] (3412) Found 15 source files
+2025-07-22 06:35:07.357 [info] [Info  - 6:35:07 a. m.] (3412) Found 14 source files
+2025-07-22 06:51:07.638 [info] [Info  - 6:51:07 a. m.] (3412) Setting environmentName for service "<default>": "3.12.3 (global)"
+2025-07-22 06:51:07.639 [info] [Info  - 6:51:07 a. m.] (3412) Setting pythonPath for service "<default>": "/usr/bin/python3"
+2025-07-22 06:51:07.639 [info] [Info  - 6:51:07 a. m.] (3412) No include entries specified; assuming /<default workspace root>
+2025-07-22 06:51:07.639 [info] [Info  - 6:51:07 a. m.] (3412) Auto-excluding **/node_modules
+2025-07-22 06:51:07.643 [info] [Info  - 6:51:07 a. m.] (3412) Auto-excluding **/__pycache__
+2025-07-22 06:51:07.643 [info] [Info  - 6:51:07 a. m.] (3412) Auto-excluding **/.*
+2025-07-22 06:51:07.743 [info] [Info  - 6:51:07 a. m.] (3412) Assuming Python version 3.12.3.final.0
+2025-07-22 06:51:07.916 [info] [Error - 6:51:07 a. m.] (3412) File or directory "/<default workspace root>" does not exist.
+2025-07-22 06:51:07.916 [info] [Info  - 6:51:07 a. m.] (3412) No source files found.
+2025-07-22 06:51:07.961 [info] [Info  - 6:51:07 a. m.] (3412) Setting environmentName for service "portafolio": "3.12.3 (global)"
+2025-07-22 06:51:07.961 [info] [Info  - 6:51:07 a. m.] (3412) Setting pythonPath for service "portafolio": "/usr/bin/python3"
+2025-07-22 06:51:07.961 [info] [Info  - 6:51:07 a. m.] (3412) No include entries specified; assuming /home/jesus/portafolio
+2025-07-22 06:51:07.961 [info] [Info  - 6:51:07 a. m.] (3412) Auto-excluding **/node_modules
+2025-07-22 06:51:07.961 [info] [Info  - 6:51:07 a. m.] (3412) Auto-excluding **/__pycache__
+2025-07-22 06:51:07.961 [info] [Info  - 6:51:07 a. m.] (3412) Auto-excluding **/.*
+2025-07-22 06:51:08.045 [info] [Info  - 6:51:08 a. m.] (3412) Assuming Python version 3.12.3.final.0
+2025-07-22 06:51:08.198 [info] [Info  - 6:51:08 a. m.] (3412) Found 14 source files
+2025-07-22 06:51:13.641 [info] [Info  - 6:51:13 a. m.] (3412) BG: Indexer background runner(6) root directory: file:///home/jesus/.vscode/extensions/ms-python.vscode-pylance-2025.6.2/dist (index)
+2025-07-22 06:51:13.641 [info] [Info  - 6:51:13 a. m.] (3412) BG: Indexing(6) started
+2025-07-22 06:51:13.641 [info] [Info  - 6:51:13 a. m.] (3412) BG: scanned(6) 136 files over 1 exec env
+2025-07-22 06:51:13.641 [info] [Info  - 6:51:13 a. m.] (3412) BG: indexed(6) 136 files over 1 exec env
+2025-07-22 06:51:13.641 [info] [Info  - 6:51:13 a. m.] (3412) BG: Indexing finished(6).
+2025-07-22 07:03:26.696 [info] [Info  - 7:03:26 a. m.] (3412) virtual workspace: vscode-chat-code-block://ea5257fc-679f-420c-a068-f0b15be99079/
+2025-07-22 07:03:26.702 [info] [Info  - 7:03:26 a. m.] (3412) Starting service instance "<default>" for workspace "vscode-chat-code-block://ea5257fc-679f-420c-a068-f0b15be99079/"
+2025-07-22 07:03:26.830 [info] [Info  - 7:03:26 a. m.] (3412) Setting environmentName for service "<default>": "3.12.3 (global)"
+2025-07-22 07:03:26.831 [info] [Info  - 7:03:26 a. m.] (3412) No include entries specified; assuming vscode-chat-code-block://ea5257fc-679f-420c-a068-f0b15be99079/
+2025-07-22 07:03:26.832 [info] [Info  - 7:03:26 a. m.] (3412) Auto-excluding **/node_modules
+2025-07-22 07:03:26.832 [info] [Info  - 7:03:26 a. m.] (3412) Auto-excluding **/__pycache__
+2025-07-22 07:03:26.832 [info] [Info  - 7:03:26 a. m.] (3412) Auto-excluding **/.*
+2025-07-22 07:03:26.922 [info] [Info  - 7:03:26 a. m.] (3412) Assuming Python version 3.12.3.final.0
+2025-07-22 07:03:27.076 [info] [Error - 7:03:27 a. m.] (3412) File or directory "vscode-chat-code-block://ea5257fc-679f-420c-a068-f0b15be99079/" does not exist.
+2025-07-22 07:03:27.076 [info] [Info  - 7:03:27 a. m.] (3412) No source files found.

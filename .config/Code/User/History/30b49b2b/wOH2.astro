@@ -1,0 +1,59 @@
+---
+import '../styles/global.css';
+import Header from '../components/Header.astro';
+---
+
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jesús Martínez | Portfolio</title>
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="stylesheet" href="node_modules/aos/dist/aos.css" />
+  </head>
+  <body class="bg-[#0d0d0d] text-white font-sans">
+    <Header />
+    <main class="max-w-screen-lg mx-auto px-4 py-8 space-y-24">
+      <section id="sobre-mi" class="scroll-mt-20" data-aos="fade-up">
+        <h2 class="text-3xl font-bold text-purple-400 mb-4">Sobre mí</h2>
+        <p class="text-gray-300">Hola, soy Jesús Martínez, desarrollador en formación apasionado por la tecnología, el diseño oscuro y el estilo ciberpunk. Este portafolio es mi carta de presentación.</p>
+      </section>
+
+      <section id="proyectos" class="scroll-mt-20" data-aos="zoom-in" data-aos-delay="200">
+        <h2 class="text-3xl font-bold text-purple-400 mb-4">Proyectos</h2>
+        <p class="text-gray-300">Aquí irán los proyectos que desees destacar. Puedes incluir capturas, descripciones y enlaces a GitHub.</p>
+      </section>
+
+      <section id="habilidades" class="scroll-mt-20" data-aos="flip-left" data-aos-delay="300">
+        <h2 class="text-3xl font-bold text-purple-400 mb-4">Habilidades</h2>
+        <ul class="text-gray-300 list-disc pl-6">
+          <li>Python</li>
+          <li>HTML, CSS, Tailwind</li>
+          <li>Astro (en proceso)</li>
+          <li>Linux</li>
+        </ul>
+      </section>
+
+      <section id="contacto" class="scroll-mt-20" data-aos="fade-up" data-aos-delay="400">
+        <h2 class="text-3xl font-bold text-purple-400 mb-4">Contacto</h2>
+        <p class="text-gray-300">Puedes escribirme al correo <strong>jesus.tuemail@ejemplo.com</strong> o a través de mis redes.</p>
+      </section>
+    </main>
+
+    <!-- Inicializar AOS -->
+    <script type="module">
+      import AOS from 'aos';
+      import 'aos/dist/aos.css';
+      AOS.init();
+    </script>
+  </body>
+</html>
+
+<style is:global>
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+</style>

@@ -1,0 +1,14 @@
+2025-07-22 05:55:30.417 [info] Deleted marked for removal extension from disk ms-python.python /home/jesus/.vscode/extensions/ms-python.python-2025.10.0-linux-x64
+2025-07-22 05:55:30.420 [info] Marked extension as removed ms-python.python-2025.10.0-linux-x64
+2025-07-22 06:50:58.191 [info] Getting Manifest... github.copilot
+2025-07-22 06:50:58.567 [info] Installing extension: github.copilot {"enable":true,"isApplicationScoped":true,"isMachineScoped":false,"installEverywhere":true,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/jesus/.vscode/extensions/extensions.json","path":"/home/jesus/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"productVersion":{"version":"1.102.0","date":"2025-07-09T22:10:34.600Z"}}
+2025-07-22 06:50:59.293 [info] Getting Manifest... github.copilot-chat
+2025-07-22 06:51:00.066 [info] Installing extension: github.copilot-chat {"enable":true,"isApplicationScoped":true,"isMachineScoped":false,"installEverywhere":true,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/jesus/.vscode/extensions/extensions.json","path":"/home/jesus/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"productVersion":{"version":"1.102.0","date":"2025-07-09T22:10:34.600Z"},"installGivenVersion":false,"context":{"dependecyOrPackExtensionInstall":true}}
+2025-07-22 06:51:03.761 [info] Extension signature verification result for github.copilot-chat: Success. Internal Code: 0. Executed: true. Duration: 1967ms.
+2025-07-22 06:51:04.783 [info] Extracted extension to file:///home/jesus/.vscode/extensions/github.copilot-chat-0.29.1: github.copilot-chat
+2025-07-22 06:51:04.812 [info] Renamed to /home/jesus/.vscode/extensions/github.copilot-chat-0.29.1
+2025-07-22 06:51:05.211 [info] Extension signature verification result for github.copilot: Success. Internal Code: 0. Executed: true. Duration: 1371ms.
+2025-07-22 06:51:07.114 [info] Extracted extension to file:///home/jesus/.vscode/extensions/github.copilot-1.346.0: github.copilot
+2025-07-22 06:51:07.157 [info] Renamed to /home/jesus/.vscode/extensions/github.copilot-1.346.0
+2025-07-22 06:51:07.229 [info] Extension installed successfully: github.copilot-chat vscode-userdata:/home/jesus/.vscode/extensions/extensions.json
+2025-07-22 06:51:07.230 [info] Extension installed successfully: github.copilot vscode-userdata:/home/jesus/.vscode/extensions/extensions.json

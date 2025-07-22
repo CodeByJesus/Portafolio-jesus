@@ -1,0 +1,23 @@
+2025-07-22 13:15:15.338 [info] [main] Log level: Info
+2025-07-22 13:15:15.338 [info] [main] Validating found git in: "git"
+2025-07-22 13:15:15.338 [info] [main] Using git "2.43.0" from "git"
+2025-07-22 13:15:15.338 [info] [Model][doInitialScan] Initial repository scan started
+2025-07-22 13:15:15.338 [info] > git rev-parse --show-toplevel [26ms]
+2025-07-22 13:15:15.338 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 13:15:15.338 [info] > git rev-parse --show-toplevel [15ms]
+2025-07-22 13:15:15.338 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 13:15:15.338 [info] > git rev-parse --show-toplevel [22ms]
+2025-07-22 13:15:15.338 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 13:15:15.338 [info] > git rev-parse --show-toplevel [1ms]
+2025-07-22 13:15:15.338 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 13:15:15.338 [info] > git rev-parse --show-toplevel [1ms]
+2025-07-22 13:15:15.338 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 13:15:15.340 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-07-22 13:15:20.808 [info] > git rev-parse --show-toplevel [112ms]
+2025-07-22 13:15:20.808 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 13:15:21.276 [info] > git rev-parse --show-toplevel [325ms]
+2025-07-22 13:15:21.277 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 13:15:21.908 [info] > git rev-parse --show-toplevel [45ms]
+2025-07-22 13:15:21.908 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 13:15:21.958 [info] > git rev-parse --show-toplevel [7ms]
+2025-07-22 13:15:21.958 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git

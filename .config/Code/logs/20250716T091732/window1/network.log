@@ -1,0 +1,8 @@
+2025-07-16 09:32:51.650 [error] #7: https://marketplace.visualstudio.com/_apis/public/gallery/vscode/ms-azuretools/vscode-containers/latest - error GET Canceled
+2025-07-16 09:32:51.651 [error] #8: https://marketplace.visualstudio.com/_apis/public/gallery/vscode/github/copilot/latest - error GET Canceled
+2025-07-16 09:32:51.652 [error] #9: https://marketplace.visualstudio.com/_apis/public/gallery/vscode/vscodevim/vim/latest - error GET Canceled
+2025-07-16 09:32:51.652 [error] #5: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST Canceled
+2025-07-16 09:32:51.655 [error] #10: https://www.vscode-unpkg.net/_gallery/ms-azuretools/vscode-containers/latest - error GET Canceled
+2025-07-16 09:32:51.655 [error] #11: https://www.vscode-unpkg.net/_gallery/github/copilot/latest - error GET Canceled
+2025-07-16 09:32:51.655 [error] #12: https://www.vscode-unpkg.net/_gallery/vscodevim/vim/latest - error GET Canceled
+2025-07-16 09:32:51.657 [error] #13: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST Canceled

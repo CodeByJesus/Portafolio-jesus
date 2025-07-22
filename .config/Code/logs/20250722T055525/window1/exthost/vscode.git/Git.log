@@ -1,0 +1,415 @@
+2025-07-22 05:55:33.268 [info] [main] Log level: Info
+2025-07-22 05:55:33.268 [info] [main] Validating found git in: "git"
+2025-07-22 05:55:33.268 [info] [main] Using git "2.43.0" from "git"
+2025-07-22 05:55:33.268 [info] [Model][doInitialScan] Initial repository scan started
+2025-07-22 05:55:33.268 [info] > git rev-parse --show-toplevel [32ms]
+2025-07-22 05:55:33.268 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 05:55:33.268 [info] > git rev-parse --show-toplevel [3ms]
+2025-07-22 05:55:33.268 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 05:55:33.268 [info] > git rev-parse --show-toplevel [4ms]
+2025-07-22 05:55:33.268 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 05:55:33.268 [info] > git rev-parse --show-toplevel [1ms]
+2025-07-22 05:55:33.268 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 05:55:33.268 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-07-22 05:55:36.907 [info] > git rev-parse --show-toplevel [7ms]
+2025-07-22 05:55:36.907 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 05:56:31.216 [info] > git rev-parse --show-toplevel [6ms]
+2025-07-22 05:56:31.216 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 05:58:23.927 [info] > git rev-parse --show-toplevel [4ms]
+2025-07-22 05:58:23.927 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 06:00:15.077 [info] > git rev-parse --show-toplevel [5ms]
+2025-07-22 06:00:15.077 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 06:01:47.868 [info] > git rev-parse --show-toplevel [3ms]
+2025-07-22 06:01:47.868 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 06:02:02.871 [info] > git rev-parse --show-toplevel [2ms]
+2025-07-22 06:02:02.871 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 06:03:59.040 [info] > git rev-parse --show-toplevel [2ms]
+2025-07-22 06:03:59.040 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 06:33:38.870 [info] > git rev-parse --show-toplevel [2ms]
+2025-07-22 06:33:38.870 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 06:33:46.446 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/jesus/portafolio/web". Error:Error: ENOENT: no such file or directory, realpath '/home/jesus/portafolio/web'
+2025-07-22 06:41:48.709 [info] > git rev-parse --show-toplevel [12ms]
+2025-07-22 06:41:48.713 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 06:42:31.503 [info] > git rev-parse --show-toplevel [6ms]
+2025-07-22 06:42:31.503 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 06:43:37.634 [info] > git rev-parse --show-toplevel [5ms]
+2025-07-22 06:43:37.634 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 06:43:57.352 [info] > git rev-parse --show-toplevel [1ms]
+2025-07-22 06:43:57.352 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 06:48:36.231 [info] > git rev-parse --show-toplevel [7ms]
+2025-07-22 06:48:36.231 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 06:48:37.874 [info] > git rev-parse --show-toplevel [2ms]
+2025-07-22 06:48:37.874 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 06:49:47.261 [info] > git rev-parse --show-toplevel [6ms]
+2025-07-22 06:49:47.261 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 06:50:47.742 [info] > git rev-parse --show-toplevel [9ms]
+2025-07-22 06:50:47.742 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 06:51:07.434 [info] > git rev-parse --show-toplevel [18ms]
+2025-07-22 06:51:07.434 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 06:51:13.090 [info] > git rev-parse --show-toplevel [148ms]
+2025-07-22 06:51:13.090 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 06:51:13.924 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/jesus/portafolio/web/static/css/js/main.js". Error:Error: ENOENT: no such file or directory, realpath '/home/jesus/portafolio/web/static/css/js/main.js'
+2025-07-22 06:51:13.959 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/jesus/portafolio/web/static/css/js/main.js". Error:Error: ENOENT: no such file or directory, realpath '/home/jesus/portafolio/web/static/css/js/main.js'
+2025-07-22 06:52:15.130 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/jesus/portafolio/web/static/css/js". Error:Error: ENOENT: no such file or directory, realpath '/home/jesus/portafolio/web/static/css/js'
+2025-07-22 06:52:16.279 [info] > git rev-parse --show-toplevel [272ms]
+2025-07-22 06:52:16.279 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 06:52:17.007 [info] > git rev-parse --show-toplevel [7ms]
+2025-07-22 06:52:17.007 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 06:52:17.950 [info] > git rev-parse --show-toplevel [4ms]
+2025-07-22 06:52:17.950 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 06:53:09.059 [info] > git rev-parse --show-toplevel [9ms]
+2025-07-22 06:53:09.059 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 06:53:09.781 [info] > git rev-parse --show-toplevel [10ms]
+2025-07-22 06:53:09.781 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 06:53:10.945 [info] > git rev-parse --show-toplevel [3ms]
+2025-07-22 06:53:10.945 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 06:53:11.479 [info] > git rev-parse --show-toplevel [3ms]
+2025-07-22 06:53:11.480 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 06:55:44.519 [info] > git rev-parse --show-toplevel [17ms]
+2025-07-22 06:55:44.519 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 06:55:44.784 [info] > git rev-parse --show-toplevel [35ms]
+2025-07-22 06:55:44.784 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 06:55:45.924 [info] > git rev-parse --show-toplevel [14ms]
+2025-07-22 06:55:45.924 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 06:55:46.447 [info] > git rev-parse --show-toplevel [16ms]
+2025-07-22 06:55:46.447 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 06:55:47.743 [info] > git rev-parse --show-toplevel [4ms]
+2025-07-22 06:55:47.743 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 06:55:48.143 [info] > git rev-parse --show-toplevel [6ms]
+2025-07-22 06:55:48.143 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 06:56:15.924 [info] > git rev-parse --show-toplevel [9ms]
+2025-07-22 06:56:15.924 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 06:58:54.311 [info] > git rev-parse --show-toplevel [7ms]
+2025-07-22 06:58:54.312 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 06:59:25.104 [info] > git rev-parse --show-toplevel [3ms]
+2025-07-22 06:59:25.104 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 07:00:19.892 [info] > git rev-parse --show-toplevel [12ms]
+2025-07-22 07:00:19.892 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 07:00:21.141 [info] > git rev-parse --show-toplevel [6ms]
+2025-07-22 07:00:21.141 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 07:02:01.909 [info] > git rev-parse --show-toplevel [7ms]
+2025-07-22 07:02:01.909 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 07:02:03.009 [info] > git rev-parse --show-toplevel [6ms]
+2025-07-22 07:02:03.009 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 07:02:03.644 [info] > git rev-parse --show-toplevel [2ms]
+2025-07-22 07:02:03.644 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 07:02:04.535 [info] > git rev-parse --show-toplevel [5ms]
+2025-07-22 07:02:04.535 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 07:02:05.036 [info] > git rev-parse --show-toplevel [10ms]
+2025-07-22 07:02:05.036 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 07:02:09.690 [info] > git rev-parse --show-toplevel [6ms]
+2025-07-22 07:02:09.690 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 07:03:26.136 [info] > git rev-parse --show-toplevel [6ms]
+2025-07-22 07:03:26.136 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 07:03:26.702 [info] > git rev-parse --show-toplevel [6ms]
+2025-07-22 07:03:26.702 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 07:03:28.917 [info] > git rev-parse --show-toplevel [4ms]
+2025-07-22 07:03:28.917 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 07:04:05.935 [info] > git rev-parse --show-toplevel [4ms]
+2025-07-22 07:04:05.935 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 07:04:55.609 [info] > git rev-parse --show-toplevel [3ms]
+2025-07-22 07:04:55.609 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 07:04:56.047 [info] > git rev-parse --show-toplevel [12ms]
+2025-07-22 07:04:56.047 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 07:05:10.698 [info] > git rev-parse --show-toplevel [6ms]
+2025-07-22 07:05:10.698 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 07:05:25.857 [info] > git rev-parse --show-toplevel [19ms]
+2025-07-22 07:05:25.857 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 07:05:27.239 [info] > git rev-parse --show-toplevel [3ms]
+2025-07-22 07:05:27.239 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 07:07:16.388 [info] > git rev-parse --show-toplevel [24ms]
+2025-07-22 07:07:16.388 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 07:07:16.774 [info] > git rev-parse --show-toplevel [4ms]
+2025-07-22 07:07:16.774 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 07:07:19.497 [info] > git rev-parse --show-toplevel [6ms]
+2025-07-22 07:07:19.497 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 07:09:01.132 [info] > git rev-parse --show-toplevel [12ms]
+2025-07-22 07:09:01.132 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 07:09:06.890 [info] > git rev-parse --show-toplevel [6ms]
+2025-07-22 07:09:06.890 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 07:09:07.948 [info] > git rev-parse --show-toplevel [3ms]
+2025-07-22 07:09:07.948 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 07:09:09.003 [info] > git rev-parse --show-toplevel [5ms]
+2025-07-22 07:09:09.003 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 07:09:36.874 [info] > git rev-parse --show-toplevel [2ms]
+2025-07-22 07:09:36.874 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 07:09:52.319 [info] > git rev-parse --show-toplevel [5ms]
+2025-07-22 07:09:52.319 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 07:10:09.747 [info] > git rev-parse --show-toplevel [5ms]
+2025-07-22 07:10:09.747 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 07:10:17.214 [info] > git rev-parse --show-toplevel [9ms]
+2025-07-22 07:10:17.214 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 07:10:20.409 [info] > git rev-parse --show-toplevel [4ms]
+2025-07-22 07:10:20.409 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 07:10:51.472 [info] > git rev-parse --show-toplevel [6ms]
+2025-07-22 07:10:51.472 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 07:10:54.229 [info] > git rev-parse --show-toplevel [6ms]
+2025-07-22 07:10:54.229 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 07:12:52.902 [info] > git rev-parse --show-toplevel [4ms]
+2025-07-22 07:12:52.902 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 07:13:30.631 [info] > git rev-parse --show-toplevel [22ms]
+2025-07-22 07:13:30.631 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 07:13:32.840 [info] > git rev-parse --show-toplevel [5ms]
+2025-07-22 07:13:32.840 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 07:13:33.873 [info] > git rev-parse --show-toplevel [6ms]
+2025-07-22 07:13:33.873 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 07:15:15.885 [info] > git rev-parse --show-toplevel [6ms]
+2025-07-22 07:15:15.885 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 07:15:23.027 [info] > git rev-parse --show-toplevel [8ms]
+2025-07-22 07:15:23.027 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 07:16:10.963 [info] > git rev-parse --show-toplevel [8ms]
+2025-07-22 07:16:10.963 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 07:16:21.378 [info] > git rev-parse --show-toplevel [13ms]
+2025-07-22 07:16:21.378 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 07:16:58.433 [info] > git rev-parse --show-toplevel [9ms]
+2025-07-22 07:16:58.433 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 07:18:15.454 [info] > git rev-parse --show-toplevel [1ms]
+2025-07-22 07:18:15.454 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 07:19:52.821 [info] > git rev-parse --show-toplevel [10ms]
+2025-07-22 07:19:52.821 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 07:19:57.564 [info] > git rev-parse --show-toplevel [3ms]
+2025-07-22 07:19:57.564 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 07:21:00.010 [info] > git rev-parse --show-toplevel [2ms]
+2025-07-22 07:21:00.010 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 07:21:23.345 [info] > git rev-parse --show-toplevel [3ms]
+2025-07-22 07:21:23.345 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 07:21:39.441 [info] > git rev-parse --show-toplevel [8ms]
+2025-07-22 07:21:39.441 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 07:21:54.534 [info] > git rev-parse --show-toplevel [4ms]
+2025-07-22 07:21:54.534 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 07:22:36.147 [info] > git rev-parse --show-toplevel [5ms]
+2025-07-22 07:22:36.147 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 07:22:36.733 [info] > git rev-parse --show-toplevel [7ms]
+2025-07-22 07:22:36.733 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 07:22:39.237 [info] > git rev-parse --show-toplevel [7ms]
+2025-07-22 07:22:39.237 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 07:23:49.974 [info] > git rev-parse --show-toplevel [10ms]
+2025-07-22 07:23:49.974 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 07:23:53.097 [info] > git rev-parse --show-toplevel [5ms]
+2025-07-22 07:23:53.097 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 07:23:57.876 [info] > git rev-parse --show-toplevel [7ms]
+2025-07-22 07:23:57.876 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 07:36:15.699 [info] > git rev-parse --show-toplevel [8ms]
+2025-07-22 07:36:15.699 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 07:41:02.195 [info] > git rev-parse --show-toplevel [12ms]
+2025-07-22 07:41:02.195 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 07:42:57.751 [info] > git rev-parse --show-toplevel [4ms]
+2025-07-22 07:42:57.751 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 07:43:01.256 [info] > git rev-parse --show-toplevel [9ms]
+2025-07-22 07:43:01.256 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 07:48:03.037 [info] > git rev-parse --show-toplevel [7ms]
+2025-07-22 07:48:03.037 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 07:48:07.259 [info] > git rev-parse --show-toplevel [6ms]
+2025-07-22 07:48:07.259 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 07:48:11.381 [info] > git rev-parse --show-toplevel [8ms]
+2025-07-22 07:48:11.381 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 07:48:22.760 [info] > git rev-parse --show-toplevel [4ms]
+2025-07-22 07:48:22.760 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 07:48:31.719 [info] > git rev-parse --show-toplevel [15ms]
+2025-07-22 07:48:31.719 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 07:48:49.776 [info] > git rev-parse --show-toplevel [8ms]
+2025-07-22 07:48:49.776 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 07:48:52.581 [info] > git rev-parse --show-toplevel [1ms]
+2025-07-22 07:48:52.581 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 07:50:45.541 [info] > git rev-parse --show-toplevel [3ms]
+2025-07-22 07:50:45.541 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 07:51:23.263 [info] > git rev-parse --show-toplevel [1ms]
+2025-07-22 07:51:23.264 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 07:52:11.730 [info] > git rev-parse --show-toplevel [9ms]
+2025-07-22 07:52:11.730 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 07:52:12.479 [info] > git rev-parse --show-toplevel [9ms]
+2025-07-22 07:52:12.479 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 08:02:23.055 [info] > git rev-parse --show-toplevel [7ms]
+2025-07-22 08:02:23.055 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 08:03:03.407 [info] > git rev-parse --show-toplevel [4ms]
+2025-07-22 08:03:03.407 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 08:12:25.988 [info] > git rev-parse --show-toplevel [8ms]
+2025-07-22 08:12:25.988 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 08:12:27.179 [info] > git rev-parse --show-toplevel [6ms]
+2025-07-22 08:12:27.179 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 08:12:52.954 [info] > git rev-parse --show-toplevel [4ms]
+2025-07-22 08:12:52.954 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 08:13:19.843 [info] > git rev-parse --show-toplevel [6ms]
+2025-07-22 08:13:19.843 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 08:13:20.737 [info] > git rev-parse --show-toplevel [3ms]
+2025-07-22 08:13:20.737 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 08:13:22.319 [info] > git rev-parse --show-toplevel [4ms]
+2025-07-22 08:13:22.319 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 08:13:22.949 [info] > git rev-parse --show-toplevel [2ms]
+2025-07-22 08:13:22.949 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 08:14:06.221 [info] > git rev-parse --show-toplevel [9ms]
+2025-07-22 08:14:06.221 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 08:15:26.723 [info] > git rev-parse --show-toplevel [9ms]
+2025-07-22 08:15:26.723 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 08:16:03.341 [info] > git rev-parse --show-toplevel [7ms]
+2025-07-22 08:16:03.341 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 08:16:05.325 [info] > git rev-parse --show-toplevel [7ms]
+2025-07-22 08:16:05.325 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 08:16:05.951 [info] > git rev-parse --show-toplevel [1ms]
+2025-07-22 08:16:05.951 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 08:16:23.563 [info] > git rev-parse --show-toplevel [14ms]
+2025-07-22 08:16:23.563 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 08:16:29.029 [info] > git rev-parse --show-toplevel [3ms]
+2025-07-22 08:16:29.029 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 08:16:37.936 [info] > git rev-parse --show-toplevel [7ms]
+2025-07-22 08:16:37.936 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 08:17:06.604 [info] > git rev-parse --show-toplevel [2ms]
+2025-07-22 08:17:06.604 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 08:17:44.536 [info] > git rev-parse --show-toplevel [7ms]
+2025-07-22 08:17:44.536 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 08:17:44.742 [info] > git rev-parse --show-toplevel [11ms]
+2025-07-22 08:17:44.742 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 08:17:45.103 [info] > git rev-parse --show-toplevel [3ms]
+2025-07-22 08:17:45.104 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 08:19:21.038 [info] > git rev-parse --show-toplevel [2ms]
+2025-07-22 08:19:21.038 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 08:19:21.436 [info] > git rev-parse --show-toplevel [10ms]
+2025-07-22 08:19:21.436 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 08:19:25.587 [info] > git rev-parse --show-toplevel [7ms]
+2025-07-22 08:19:25.587 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 08:19:46.625 [info] > git rev-parse --show-toplevel [8ms]
+2025-07-22 08:19:46.625 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 08:20:54.110 [info] > git rev-parse --show-toplevel [7ms]
+2025-07-22 08:20:54.110 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 08:20:55.535 [info] > git rev-parse --show-toplevel [3ms]
+2025-07-22 08:20:55.535 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 08:21:56.050 [info] > git rev-parse --show-toplevel [9ms]
+2025-07-22 08:21:56.050 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 08:21:57.301 [info] > git rev-parse --show-toplevel [18ms]
+2025-07-22 08:21:57.301 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 08:22:03.211 [info] > git rev-parse --show-toplevel [7ms]
+2025-07-22 08:22:03.211 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 08:22:03.469 [info] > git rev-parse --show-toplevel [7ms]
+2025-07-22 08:22:03.469 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 08:22:05.844 [info] > git rev-parse --show-toplevel [4ms]
+2025-07-22 08:22:05.844 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 08:22:52.705 [info] > git rev-parse --show-toplevel [7ms]
+2025-07-22 08:22:52.705 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 08:23:11.006 [info] > git rev-parse --show-toplevel [2ms]
+2025-07-22 08:23:11.006 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 08:24:10.138 [info] > git rev-parse --show-toplevel [2ms]
+2025-07-22 08:24:10.138 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 08:24:11.545 [info] > git rev-parse --show-toplevel [3ms]
+2025-07-22 08:24:11.545 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 08:24:17.240 [info] > git rev-parse --show-toplevel [4ms]
+2025-07-22 08:24:17.241 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 08:24:49.336 [info] > git rev-parse --show-toplevel [21ms]
+2025-07-22 08:24:49.336 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 08:24:57.191 [info] > git rev-parse --show-toplevel [5ms]
+2025-07-22 08:24:57.191 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 08:25:16.685 [info] > git rev-parse --show-toplevel [3ms]
+2025-07-22 08:25:16.685 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 08:26:17.800 [info] > git rev-parse --show-toplevel [10ms]
+2025-07-22 08:26:17.800 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 08:26:56.661 [info] > git rev-parse --show-toplevel [16ms]
+2025-07-22 08:26:56.661 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 08:26:59.204 [info] > git rev-parse --show-toplevel [3ms]
+2025-07-22 08:26:59.204 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 08:27:01.725 [info] > git rev-parse --show-toplevel [3ms]
+2025-07-22 08:27:01.726 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 08:27:21.841 [info] > git rev-parse --show-toplevel [8ms]
+2025-07-22 08:27:21.841 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 08:31:07.624 [info] > git rev-parse --show-toplevel [11ms]
+2025-07-22 08:31:07.624 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 08:31:46.158 [info] > git rev-parse --show-toplevel [7ms]
+2025-07-22 08:31:46.158 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 08:32:49.215 [info] > git rev-parse --show-toplevel [22ms]
+2025-07-22 08:32:49.215 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 08:34:26.789 [info] > git rev-parse --show-toplevel [4ms]
+2025-07-22 08:34:26.789 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 08:36:00.855 [info] > git rev-parse --show-toplevel [14ms]
+2025-07-22 08:36:00.855 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 08:36:01.310 [info] > git rev-parse --show-toplevel [11ms]
+2025-07-22 08:36:01.310 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 08:37:18.718 [info] > git rev-parse --show-toplevel [8ms]
+2025-07-22 08:37:18.719 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 08:38:24.212 [info] > git rev-parse --show-toplevel [12ms]
+2025-07-22 08:38:24.212 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 08:38:24.678 [info] > git rev-parse --show-toplevel [11ms]
+2025-07-22 08:38:24.678 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 08:41:04.964 [info] > git rev-parse --show-toplevel [10ms]
+2025-07-22 08:41:04.964 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 08:42:12.216 [info] > git rev-parse --show-toplevel [20ms]
+2025-07-22 08:42:12.216 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 08:44:31.199 [info] > git rev-parse --show-toplevel [27ms]
+2025-07-22 08:44:31.199 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 08:45:34.508 [info] > git rev-parse --show-toplevel [7ms]
+2025-07-22 08:45:34.508 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 08:45:35.279 [info] > git rev-parse --show-toplevel [13ms]
+2025-07-22 08:45:35.279 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 08:45:36.120 [info] > git rev-parse --show-toplevel [3ms]
+2025-07-22 08:45:36.120 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 08:48:18.838 [info] > git rev-parse --show-toplevel [47ms]
+2025-07-22 08:48:18.843 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 08:48:19.460 [info] > git rev-parse --show-toplevel [9ms]
+2025-07-22 08:48:19.460 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 08:48:38.974 [info] > git rev-parse --show-toplevel [3ms]
+2025-07-22 08:48:38.974 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 08:54:23.981 [info] > git rev-parse --show-toplevel [17ms]
+2025-07-22 08:54:23.981 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 08:56:20.534 [info] > git rev-parse --show-toplevel [11ms]
+2025-07-22 08:56:20.534 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 08:56:24.074 [info] > git rev-parse --show-toplevel [12ms]
+2025-07-22 08:56:24.074 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 08:56:51.207 [info] > git rev-parse --show-toplevel [8ms]
+2025-07-22 08:56:51.207 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 08:58:06.330 [info] > git rev-parse --show-toplevel [10ms]
+2025-07-22 08:58:06.330 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 08:59:03.306 [info] > git rev-parse --show-toplevel [4ms]
+2025-07-22 08:59:03.306 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 08:59:36.384 [info] > git rev-parse --show-toplevel [6ms]
+2025-07-22 08:59:36.384 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 08:59:42.924 [info] > git rev-parse --show-toplevel [4ms]
+2025-07-22 08:59:42.924 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 08:59:43.399 [info] > git rev-parse --show-toplevel [6ms]
+2025-07-22 08:59:43.399 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 08:59:46.560 [info] > git rev-parse --show-toplevel [2ms]
+2025-07-22 08:59:46.560 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 08:59:47.932 [info] > git rev-parse --show-toplevel [6ms]
+2025-07-22 08:59:47.932 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 09:04:43.701 [info] > git rev-parse --show-toplevel [13ms]
+2025-07-22 09:04:43.701 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 09:05:20.129 [info] > git rev-parse --show-toplevel [10ms]
+2025-07-22 09:05:20.129 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 09:05:34.106 [info] > git rev-parse --show-toplevel [3ms]
+2025-07-22 09:05:34.106 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 09:06:00.992 [info] > git rev-parse --show-toplevel [11ms]
+2025-07-22 09:06:00.992 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 09:07:45.208 [info] > git rev-parse --show-toplevel [8ms]
+2025-07-22 09:07:45.208 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 09:08:02.200 [info] > git rev-parse --show-toplevel [14ms]
+2025-07-22 09:08:02.200 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 09:08:02.589 [info] > git rev-parse --show-toplevel [13ms]
+2025-07-22 09:08:02.589 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 09:10:35.776 [info] > git rev-parse --show-toplevel [11ms]
+2025-07-22 09:10:35.776 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 09:12:06.785 [info] > git rev-parse --show-toplevel [12ms]
+2025-07-22 09:12:06.787 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 09:12:08.272 [info] > git rev-parse --show-toplevel [19ms]
+2025-07-22 09:12:08.272 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 09:12:13.161 [info] > git rev-parse --show-toplevel [6ms]
+2025-07-22 09:12:13.161 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 09:12:13.776 [info] > git rev-parse --show-toplevel [3ms]
+2025-07-22 09:12:13.776 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 09:12:22.434 [info] > git rev-parse --show-toplevel [7ms]
+2025-07-22 09:12:22.434 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 09:12:23.730 [info] > git rev-parse --show-toplevel [6ms]
+2025-07-22 09:12:23.731 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 09:12:25.902 [info] > git rev-parse --show-toplevel [4ms]
+2025-07-22 09:12:25.902 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 09:13:34.075 [info] > git rev-parse --show-toplevel [9ms]
+2025-07-22 09:13:34.075 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 09:15:41.637 [info] > git rev-parse --show-toplevel [5ms]
+2025-07-22 09:15:41.640 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 09:15:54.122 [info] > git rev-parse --show-toplevel [7ms]
+2025-07-22 09:15:54.122 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 09:16:08.016 [info] > git rev-parse --show-toplevel [6ms]
+2025-07-22 09:16:08.016 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 09:17:00.087 [info] > git rev-parse --show-toplevel [6ms]
+2025-07-22 09:17:00.087 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 09:17:01.579 [info] > git rev-parse --show-toplevel [6ms]
+2025-07-22 09:17:01.579 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 09:19:12.733 [info] > git rev-parse --show-toplevel [8ms]
+2025-07-22 09:19:12.733 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+2025-07-22 09:19:13.362 [info] > git rev-parse --show-toplevel [6ms]
+2025-07-22 09:19:13.362 [info] fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git

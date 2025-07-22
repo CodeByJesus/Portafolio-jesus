@@ -1,0 +1,52 @@
+2025-07-16 09:17:34.137 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vsliveshare.vsliveshare' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-16 09:17:34.149 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.gather' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-16 09:17:34.150 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-pylance' wants API proposal 'mcpConfigurationProvider' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-16 09:17:34.644 [info] Started local extension host with pid 2797.
+2025-07-16 09:17:34.879 [info] Started initializing default profile extensions in extensions installation folder. file:///home/jesus/.vscode/extensions
+2025-07-16 09:17:35.195 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2025-07-16 09:17:35.446 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/jesus/.vscode/extensions
+2025-07-16 09:17:52.714 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-07-16 09:17:53.968 [info] [perf] Render performance baseline is 22ms
+2025-07-16 09:18:06.604 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vsliveshare.vsliveshare' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-16 09:18:06.605 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.gather' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-16 09:18:06.607 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-pylance' wants API proposal 'mcpConfigurationProvider' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-16 09:18:06.936 [info] Started local extension host with pid 2953.
+2025-07-16 09:18:07.539 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2025-07-16 09:18:07.902 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-07-16 09:18:09.596 [info] [perf] Render performance baseline is 26ms
+2025-07-16 09:28:02.579 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vsliveshare.vsliveshare' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-16 09:28:02.580 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.gather' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-16 09:28:02.582 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-pylance' wants API proposal 'mcpConfigurationProvider' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-16 09:28:03.027 [info] Started local extension host with pid 3342.
+2025-07-16 09:28:03.451 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2025-07-16 09:28:04.114 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-07-16 09:28:05.848 [info] [perf] Render performance baseline is 24ms
+2025-07-16 09:32:51.653 [error] Error while getting the latest version for the extension ms-azuretools.vscode-containers from https://marketplace.visualstudio.com/_apis/public/gallery/vscode/{publisher}/{name}/latest. Trying the fallback https://www.vscode-unpkg.net/_gallery/{publisher}/{name}/latest Canceled
+2025-07-16 09:32:51.653 [error] Error while getting the latest version for the extension github.copilot from https://marketplace.visualstudio.com/_apis/public/gallery/vscode/{publisher}/{name}/latest. Trying the fallback https://www.vscode-unpkg.net/_gallery/{publisher}/{name}/latest Canceled
+2025-07-16 09:32:51.654 [error] Error while getting the latest version for the extension vscodevim.vim from https://marketplace.visualstudio.com/_apis/public/gallery/vscode/{publisher}/{name}/latest. Trying the fallback https://www.vscode-unpkg.net/_gallery/{publisher}/{name}/latest Canceled
+2025-07-16 09:32:51.656 [error] Error while getting the latest version for the extension ms-azuretools.vscode-containers. Canceled
+2025-07-16 09:32:51.656 [error] Error while getting the latest version for the extension github.copilot. Canceled
+2025-07-16 09:32:51.657 [error] Error while getting the latest version for the extension vscodevim.vim. Canceled
+2025-07-16 09:33:18.101 [error] Extension 'ms-python.vscode-pylance' wants API proposal 'mcpConfigurationProvider' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-16 09:57:56.134 [warning] Settings pattern "mcp" doesn't match any settings
+2025-07-16 09:58:36.130 [error] An unknown error occurred. Please consult the log for more details.: TypeError: 
+	at [Symbol.hasInstance] (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:107:22966)
+	at /usr/share/code/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:2:573778
+	at o (/usr/share/code/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:2:573806)
+	at runNextTicks (node:internal/process/task_queues:65:5)
+	at process.processImmediate (node:internal/timers:453:9)
+	at async dP.provideDocumentSymbols (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:127533)
+2025-07-16 09:58:37.605 [warning] Settings pattern "mcp" doesn't match any settings
+2025-07-16 10:01:22.226 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/jesus/.config/Code/User/settings.json: Expected ',' or '}' after property value in JSON at position 42 (line 5 column 6)
+2025-07-16 10:01:22.341 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/jesus/.config/Code/User/settings.json: Expected ',' or '}' after property value in JSON at position 42 (line 5 column 6)
+2025-07-16 10:01:22.342 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/jesus/.config/Code/User/settings.json: Expected ',' or '}' after property value in JSON at position 42 (line 5 column 6)
+2025-07-16 10:01:22.631 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/jesus/.config/Code/User/settings.json: Expected ',' or '}' after property value in JSON at position 42 (line 5 column 6)
+2025-07-16 10:01:22.741 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/jesus/.config/Code/User/settings.json: Expected ',' or '}' after property value in JSON at position 42 (line 5 column 6)
+2025-07-16 10:01:22.742 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/jesus/.config/Code/User/settings.json: Expected ',' or '}' after property value in JSON at position 42 (line 5 column 6)
+2025-07-16 10:01:23.037 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/jesus/.config/Code/User/settings.json: Expected ',' or '}' after property value in JSON at position 42 (line 5 column 6)
+2025-07-16 10:01:23.140 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/jesus/.config/Code/User/settings.json: Expected ',' or '}' after property value in JSON at position 42 (line 5 column 6)
+2025-07-16 10:01:23.144 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/jesus/.config/Code/User/settings.json: Expected ',' or '}' after property value in JSON at position 42 (line 5 column 6)
+2025-07-16 10:01:24.171 [warning] Settings pattern "mcp" doesn't match any settings
+2025-07-16 10:01:25.697 [warning] Settings pattern "mcp" doesn't match any settings
+2025-07-16 10:28:07.126 [warning] Settings pattern "mcp" doesn't match any settings
+2025-07-16 10:48:01.731 [warning] Settings pattern "mcp" doesn't match any settings

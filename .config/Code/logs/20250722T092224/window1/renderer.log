@@ -1,0 +1,56 @@
+2025-07-22 09:22:25.747 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vsliveshare.vsliveshare' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-22 09:22:25.761 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.gather' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-22 09:22:25.762 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-pylance' wants API proposal 'mcpConfigurationProvider' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-22 09:22:27.540 [info] Started local extension host with pid 15697.
+2025-07-22 09:22:28.904 [error] Extension 'ms-python.vscode-pylance' wants API proposal 'mcpConfigurationProvider' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-22 09:22:30.517 [error] [Extension Host] (node:15697) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `exe --trace-warnings ...` to show where the warning was created)
+2025-07-22 09:22:35.008 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-07-22 09:22:36.072 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/jesus/.config/Code/User/settings.json: Expected ',' or '}' after property value in JSON at position 42 (line 5 column 6)
+2025-07-22 09:22:36.155 [info] [perf] Render performance baseline is 59ms
+2025-07-22 09:29:40.435 [error] [Extension Host] [AsyncCompletionManager] [f5564174-8e9b-4a7d-99f5-40f57627d98d] Request errored with AbortError: The operation was aborted.
+    at AbortSignal.abortHandler (/home/jesus/.vscode/extensions/github.copilot-1.346.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:106:17)
+    at AbortSignal.[nodejs.internal.kHybridDispatch] (node:internal/event_target:827:20)
+    at AbortSignal.dispatchEvent (node:internal/event_target:762:26)
+    at runAbort (node:internal/abort_controller:447:10)
+    at abortSignal (node:internal/abort_controller:433:3)
+    at AbortController.abort (node:internal/abort_controller:466:5)
+    at /home/jesus/.vscode/extensions/github.copilot-1.346.0/lib/src/networking.ts:237:19
+    at Dse.invoke (/home/jesus/.vscode/extensions/github.copilot-1.346.0/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+    at t.fire (/home/jesus/.vscode/extensions/github.copilot-1.346.0/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+    at OU.cancel (/home/jesus/.vscode/extensions/github.copilot-1.346.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:41:31)
+    at Tse.cancel (/home/jesus/.vscode/extensions/github.copilot-1.346.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:82:25)
+    at Wc.cancelRequest (/home/jesus/.vscode/extensions/github.copilot-1.346.0/lib/src/ghostText/asyncCompletions.ts:257:41)
+    at Wc.getFirstMatchingRequest (/home/jesus/.vscode/extensions/github.copilot-1.346.0/lib/src/ghostText/asyncCompletions.ts:234:22)
+    at /home/jesus/.vscode/extensions/github.copilot-1.346.0/lib/src/ghostText/ghostText.ts:948:22
+    at getGhostText (/home/jesus/.vscode/extensions/github.copilot-1.346.0/lib/src/ghostText/ghostText.ts:1094:16)
+    at getInlineCompletionsResult (/home/jesus/.vscode/extensions/github.copilot-1.346.0/lib/src/inlineCompletion.ts:34:20)
+    at getInlineCompletions (/home/jesus/.vscode/extensions/github.copilot-1.346.0/lib/src/inlineCompletion.ts:113:20)
+    at lV.provideInlineCompletionItems (/home/jesus/.vscode/extensions/github.copilot-1.346.0/extension/src/ghostText/ghostText.ts:47:32)
+    at R_e.provideInlineCompletionItems (/home/jesus/.vscode/extensions/github.copilot-1.346.0/extension/src/inlineCompletion.ts:93:25)
+    at Xo.provideInlineCompletions (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:144782) {
+  type: 'aborted',
+  _name: 'AbortError'
+}
+2025-07-22 09:33:25.743 [error] [Extension Host] [AsyncCompletionManager] [f146113d-f1f3-46ee-8ecd-5199c9f95f3c] Request errored with AbortError: The operation was aborted.
+    at AbortSignal.abortHandler (/home/jesus/.vscode/extensions/github.copilot-1.346.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:106:17)
+    at AbortSignal.[nodejs.internal.kHybridDispatch] (node:internal/event_target:827:20)
+    at AbortSignal.dispatchEvent (node:internal/event_target:762:26)
+    at runAbort (node:internal/abort_controller:447:10)
+    at abortSignal (node:internal/abort_controller:433:3)
+    at AbortController.abort (node:internal/abort_controller:466:5)
+    at /home/jesus/.vscode/extensions/github.copilot-1.346.0/lib/src/networking.ts:237:19
+    at Dse.invoke (/home/jesus/.vscode/extensions/github.copilot-1.346.0/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+    at t.fire (/home/jesus/.vscode/extensions/github.copilot-1.346.0/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+    at OU.cancel (/home/jesus/.vscode/extensions/github.copilot-1.346.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:41:31)
+    at Tse.cancel (/home/jesus/.vscode/extensions/github.copilot-1.346.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:82:25)
+    at Wc.cancelRequest (/home/jesus/.vscode/extensions/github.copilot-1.346.0/lib/src/ghostText/asyncCompletions.ts:257:41)
+    at Wc.getFirstMatchingRequest (/home/jesus/.vscode/extensions/github.copilot-1.346.0/lib/src/ghostText/asyncCompletions.ts:234:22)
+    at /home/jesus/.vscode/extensions/github.copilot-1.346.0/lib/src/ghostText/ghostText.ts:948:22 {
+  type: 'aborted',
+  _name: 'AbortError'
+}
+2025-07-22 13:14:12.801 [error] [text file model] handleSaveError(9) - exit - resulted in a save error: Error: Unable to write file '/home/jesus/portafolio/locale/en/LC_MESSAGES/django.po' (Error: File Modified Since) file:///home/jesus/portafolio/locale/en/LC_MESSAGES/django.po
+2025-07-22 13:14:13.261 [error] [text file model] handleSaveError(9) - exit - resulted in a save error: Error: Unable to write file '/home/jesus/portafolio/locale/en/LC_MESSAGES/django.po' (Error: File Modified Since) file:///home/jesus/portafolio/locale/en/LC_MESSAGES/django.po
+2025-07-22 13:14:16.020 [error] [text file model] handleSaveError(9) - exit - resulted in a save error: Error: Unable to write file '/home/jesus/portafolio/locale/en/LC_MESSAGES/django.po' (Error: File Modified Since) file:///home/jesus/portafolio/locale/en/LC_MESSAGES/django.po
+2025-07-22 13:14:16.595 [error] [text file model] handleSaveError(9) - exit - resulted in a save error: Error: Unable to write file '/home/jesus/portafolio/locale/en/LC_MESSAGES/django.po' (Error: File Modified Since) file:///home/jesus/portafolio/locale/en/LC_MESSAGES/django.po

@@ -1,0 +1,20 @@
+2025-07-22 05:55:32.017 [info] Native locator: Refresh started
+2025-07-22 05:55:32.017 [info] Native locator: Refresh started
+2025-07-22 05:55:32.861 [info] > pyenv which python
+2025-07-22 05:55:32.861 [info] cwd: .
+2025-07-22 05:55:33.288 [info] Python interpreter path: /usr/bin/python3
+2025-07-22 05:55:33.358 [info] Native locator: Refresh finished in 1576 ms
+2025-07-22 05:55:35.167 [info] Starting Pylance language server.
+2025-07-22 05:57:22.992 [info] Discover tests for workspace name: portafolio - uri: /home/jesus/portafolio/web/views.py
+2025-07-22 05:57:23.565 [info] Discover tests for workspace name: portafolio - uri: /home/jesus/portafolio/web/views.py
+2025-07-22 05:59:24.980 [info] Discover tests for workspace name: portafolio - uri: /home/jesus/portafolio/portafolio/urls.py
+2025-07-22 05:59:25.634 [info] Discover tests for workspace name: portafolio - uri: /home/jesus/portafolio/portafolio/urls.py
+2025-07-22 05:59:44.972 [info] Discover tests for workspace name: portafolio - uri: /home/jesus/portafolio/portafolio/urls.py
+2025-07-22 05:59:45.676 [info] Discover tests for workspace name: portafolio - uri: /home/jesus/portafolio/portafolio/urls.py
+2025-07-22 06:33:46.661 [info] Discover tests for workspace name: portafolio - uri: /home/jesus/portafolio/portafolio/urls.py
+2025-07-22 06:50:02.307 [info] Discover tests for workspace name: portafolio - uri: /home/jesus/portafolio/web/models.py
+2025-07-22 06:50:02.749 [info] Discover tests for workspace name: portafolio - uri: /home/jesus/portafolio/web/models.py
+2025-07-22 06:51:29.479 [info] Discover tests for workspace name: portafolio - uri: /home/jesus/portafolio/web/models.py
+2025-07-22 06:51:29.938 [info] Discover tests for workspace name: portafolio - uri: /home/jesus/portafolio/web/models.py
+2025-07-22 07:04:33.096 [info] Discover tests for workspace name: portafolio - uri: /home/jesus/portafolio/portafolio/settings.py
+2025-07-22 07:04:33.540 [info] Discover tests for workspace name: portafolio - uri: /home/jesus/portafolio/portafolio/settings.py

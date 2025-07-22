@@ -1,0 +1,84 @@
+2025-07-22 09:22:40.074 [info] (Client) Pylance async client (2025.6.2) started with python extension (2025.10.1)
+2025-07-22 09:22:42.293 [info] [Info  - 9:22:42 a. m.] (16308) Server root directory: file:///home/jesus/.vscode/extensions/ms-python.vscode-pylance-2025.6.2/dist
+2025-07-22 09:22:42.307 [info] [Info  - 9:22:42 a. m.] (16308) Pylance language server 2025.6.2 (pyright version 1.1.402, commit 9496ae00) starting
+2025-07-22 09:22:42.324 [info] [Info  - 9:22:42 a. m.] (16308) Starting service instance "portafolio" for workspace "/home/jesus/portafolio"
+2025-07-22 09:22:42.543 [info] [Info  - 9:22:42 a. m.] (16308) Setting environmentName for service "portafolio": "3.12.3 (global)"
+2025-07-22 09:22:42.545 [info] [Info  - 9:22:42 a. m.] (16308) Setting pythonPath for service "portafolio": "/usr/bin/python3"
+2025-07-22 09:22:42.548 [info] [Info  - 9:22:42 a. m.] (16308) No include entries specified; assuming /home/jesus/portafolio
+2025-07-22 09:22:42.548 [info] [Info  - 9:22:42 a. m.] (16308) Auto-excluding **/node_modules
+2025-07-22 09:22:42.548 [info] [Info  - 9:22:42 a. m.] (16308) Auto-excluding **/__pycache__
+2025-07-22 09:22:42.550 [info] [Info  - 9:22:42 a. m.] (16308) Auto-excluding **/.*
+2025-07-22 09:22:42.660 [info] [Info  - 9:22:42 a. m.] (16308) Assuming Python version 3.12.3.final.0
+2025-07-22 09:22:42.955 [info] [Info  - 9:22:42 a. m.] (16308) Found 14 source files
+2025-07-22 09:22:43.047 [info] [Info  - 9:22:43 a. m.] (16308) Setting environmentName for service "portafolio": "3.12.3 (global)"
+2025-07-22 09:22:43.055 [info] [Info  - 9:22:43 a. m.] (16308) Setting pythonPath for service "portafolio": "/usr/bin/python3"
+2025-07-22 09:22:43.059 [info] [Info  - 9:22:43 a. m.] (16308) No include entries specified; assuming /home/jesus/portafolio
+2025-07-22 09:22:43.059 [info] [Info  - 9:22:43 a. m.] (16308) Auto-excluding **/node_modules
+2025-07-22 09:22:43.060 [info] [Info  - 9:22:43 a. m.] (16308) Auto-excluding **/__pycache__
+2025-07-22 09:22:43.060 [info] [Info  - 9:22:43 a. m.] (16308) Auto-excluding **/.*
+2025-07-22 09:22:43.283 [info] [Info  - 9:22:43 a. m.] (16308) Assuming Python version 3.12.3.final.0
+2025-07-22 09:22:43.553 [info] [Info  - 9:22:43 a. m.] (16308) Found 14 source files
+2025-07-22 09:22:44.719 [info] [Info  - 9:22:44 a. m.] (16308) BG: Priority queue background worker(2) root directory: file:///home/jesus/.vscode/extensions/ms-python.vscode-pylance-2025.6.2/dist
+2025-07-22 09:22:44.730 [info] [Info  - 9:22:44 a. m.] (16308) BG: Priority queue background worker(2) started
+2025-07-22 11:11:04.990 [info] [Info  - 11:11:04 a. m.] (16308) Setting environmentName for service "portafolio": "3.12.3 (global)"
+2025-07-22 11:11:04.991 [info] [Info  - 11:11:04 a. m.] (16308) Setting pythonPath for service "portafolio": "/usr/bin/python3"
+2025-07-22 11:11:04.992 [info] [Info  - 11:11:04 a. m.] (16308) No include entries specified; assuming /home/jesus/portafolio
+2025-07-22 11:11:04.992 [info] [Info  - 11:11:04 a. m.] (16308) Auto-excluding **/node_modules
+2025-07-22 11:11:04.992 [info] [Info  - 11:11:04 a. m.] (16308) Auto-excluding **/__pycache__
+2025-07-22 11:11:04.992 [info] [Info  - 11:11:04 a. m.] (16308) Auto-excluding **/.*
+2025-07-22 11:11:05.046 [info] [Info  - 11:11:05 a. m.] (16308) Assuming Python version 3.12.3.final.0
+2025-07-22 11:11:05.352 [info] [Info  - 11:11:05 a. m.] (16308) Found 14 source files
+2025-07-22 11:12:55.662 [info] [Info  - 11:12:55 a. m.] (16308) Setting environmentName for service "portafolio": "3.12.3 (global)"
+2025-07-22 11:12:55.662 [info] [Info  - 11:12:55 a. m.] (16308) Setting pythonPath for service "portafolio": "/usr/bin/python3"
+2025-07-22 11:12:55.662 [info] [Info  - 11:12:55 a. m.] (16308) No include entries specified; assuming /home/jesus/portafolio
+2025-07-22 11:12:55.662 [info] [Info  - 11:12:55 a. m.] (16308) Auto-excluding **/node_modules
+2025-07-22 11:12:55.662 [info] [Info  - 11:12:55 a. m.] (16308) Auto-excluding **/__pycache__
+2025-07-22 11:12:55.662 [info] [Info  - 11:12:55 a. m.] (16308) Auto-excluding **/.*
+2025-07-22 11:12:55.694 [info] [Info  - 11:12:55 a. m.] (16308) Assuming Python version 3.12.3.final.0
+2025-07-22 11:12:55.774 [info] [Info  - 11:12:55 a. m.] (16308) Found 14 source files
+2025-07-22 11:38:31.881 [info] [Info  - 11:38:31 a. m.] (16308) Setting environmentName for service "portafolio": "3.12.3 (global)"
+2025-07-22 11:38:31.881 [info] [Info  - 11:38:31 a. m.] (16308) Setting pythonPath for service "portafolio": "/usr/bin/python3"
+2025-07-22 11:38:31.882 [info] [Info  - 11:38:31 a. m.] (16308) No include entries specified; assuming /home/jesus/portafolio
+2025-07-22 11:38:31.882 [info] [Info  - 11:38:31 a. m.] (16308) Auto-excluding **/node_modules
+2025-07-22 11:38:31.882 [info] [Info  - 11:38:31 a. m.] (16308) Auto-excluding **/__pycache__
+2025-07-22 11:38:31.882 [info] [Info  - 11:38:31 a. m.] (16308) Auto-excluding **/.*
+2025-07-22 11:38:31.921 [info] [Info  - 11:38:31 a. m.] (16308) Assuming Python version 3.12.3.final.0
+2025-07-22 11:38:32.001 [info] [Info  - 11:38:32 a. m.] (16308) Auto-excluding /home/jesus/portafolio/venv
+2025-07-22 11:38:32.009 [info] [Info  - 11:38:32 a. m.] (16308) Found 14 source files
+2025-07-22 11:38:32.456 [info] [Info  - 11:38:32 a. m.] (16308) Setting environmentName for service "portafolio": "3.12.3 (global)"
+2025-07-22 11:38:32.456 [info] [Info  - 11:38:32 a. m.] (16308) Setting pythonPath for service "portafolio": "/usr/bin/python3"
+2025-07-22 11:38:32.456 [info] [Info  - 11:38:32 a. m.] (16308) No include entries specified; assuming /home/jesus/portafolio
+2025-07-22 11:38:32.456 [info] [Info  - 11:38:32 a. m.] (16308) Auto-excluding **/node_modules
+2025-07-22 11:38:32.456 [info] [Info  - 11:38:32 a. m.] (16308) Auto-excluding **/__pycache__
+2025-07-22 11:38:32.457 [info] [Info  - 11:38:32 a. m.] (16308) Auto-excluding **/.*
+2025-07-22 11:38:32.497 [info] [Info  - 11:38:32 a. m.] (16308) Assuming Python version 3.12.3.final.0
+2025-07-22 11:38:32.575 [info] [Info  - 11:38:32 a. m.] (16308) Auto-excluding /home/jesus/portafolio/venv
+2025-07-22 11:38:32.579 [info] [Info  - 11:38:32 a. m.] (16308) Found 14 source files
+2025-07-22 11:45:04.106 [info] [Info  - 11:45:04 a. m.] (16308) Auto-excluding /home/jesus/portafolio/venv
+2025-07-22 11:45:04.117 [info] [Info  - 11:45:04 a. m.] (16308) Found 17 source files
+2025-07-22 11:45:04.545 [info] [Info  - 11:45:04 a. m.] (16308) Auto-excluding /home/jesus/portafolio/venv
+2025-07-22 11:45:04.570 [info] [Info  - 11:45:04 a. m.] (16308) Found 14 source files
+2025-07-22 11:54:29.964 [info] [Info  - 11:54:29 a. m.] (16308) Auto-excluding /home/jesus/portafolio/venv
+2025-07-22 11:54:29.968 [info] [Info  - 11:54:29 a. m.] (16308) Found 15 source files
+2025-07-22 12:22:07.703 [info] [Info  - 12:22:07 p. m.] (16308) Auto-excluding /home/jesus/portafolio/venv
+2025-07-22 12:22:07.705 [info] [Info  - 12:22:07 p. m.] (16308) Found 14 source files
+2025-07-22 12:27:47.293 [info] [Info  - 12:27:47 p. m.] (16308) Auto-excluding /home/jesus/portafolio/venv
+2025-07-22 12:27:47.298 [info] [Info  - 12:27:47 p. m.] (16308) Found 15 source files
+2025-07-22 12:43:33.986 [info] [Info  - 12:43:33 p. m.] (16308) Setting environmentName for service "portafolio": "3.12.3 (global)"
+2025-07-22 12:43:33.986 [info] [Info  - 12:43:33 p. m.] (16308) Setting pythonPath for service "portafolio": "/usr/bin/python3"
+2025-07-22 12:43:33.987 [info] [Info  - 12:43:33 p. m.] (16308) No include entries specified; assuming /home/jesus/portafolio
+2025-07-22 12:43:33.987 [info] [Info  - 12:43:33 p. m.] (16308) Auto-excluding **/node_modules
+2025-07-22 12:43:33.987 [info] [Info  - 12:43:33 p. m.] (16308) Auto-excluding **/__pycache__
+2025-07-22 12:43:33.987 [info] [Info  - 12:43:33 p. m.] (16308) Auto-excluding **/.*
+2025-07-22 12:43:34.032 [info] [Info  - 12:43:34 p. m.] (16308) Assuming Python version 3.12.3.final.0
+2025-07-22 12:43:34.124 [info] [Info  - 12:43:34 p. m.] (16308) Auto-excluding /home/jesus/portafolio/venv
+2025-07-22 12:43:34.132 [info] [Info  - 12:43:34 p. m.] (16308) Found 15 source files
+2025-07-22 12:47:26.438 [info] [Info  - 12:47:26 p. m.] (16308) Auto-excluding /home/jesus/portafolio/venv
+2025-07-22 12:47:26.455 [info] [Info  - 12:47:26 p. m.] (16308) Found 19 source files
+2025-07-22 12:47:26.881 [info] [Info  - 12:47:26 p. m.] (16308) Auto-excluding /home/jesus/portafolio/venv
+2025-07-22 12:47:26.888 [info] [Info  - 12:47:26 p. m.] (16308) Found 15 source files
+2025-07-22 13:12:13.815 [info] [Info  - 1:12:13 p. m.] (16308) BG: Indexer background runner(3) root directory: file:///home/jesus/.vscode/extensions/ms-python.vscode-pylance-2025.6.2/dist (index)
+2025-07-22 13:12:13.815 [info] [Info  - 1:12:13 p. m.] (16308) BG: Indexing(3) started
+2025-07-22 13:12:14.720 [info] [Info  - 1:12:14 p. m.] (16308) BG: scanned(3) 136 files over 1 exec env
+2025-07-22 13:12:15.082 [info] [Info  - 1:12:15 p. m.] (16308) BG: indexed(3) 136 files over 1 exec env
+2025-07-22 13:12:15.129 [info] [Info  - 1:12:15 p. m.] (16308) BG: Indexing finished(3).

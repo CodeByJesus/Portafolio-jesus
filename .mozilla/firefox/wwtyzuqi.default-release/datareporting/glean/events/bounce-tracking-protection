@@ -1,0 +1,5 @@
+{"timestamp":10913798,"category":"bounce.tracking.protection","name":"purge_action","extra":{"bounce_time":"1753185116","site_host":"vscode.dev","require_stateful_bounces":"true","glean_timestamp":"1753192252788","is_dry_run":"true","success":"true"}}
+{"timestamp":10913799,"category":"bounce.tracking.protection","name":"purge_action","extra":{"site_host":"wallspic.com","require_stateful_bounces":"true","is_dry_run":"true","success":"true","glean_timestamp":"1753192252789","bounce_time":"1753188366"}}
+{"timestamp":10913799,"category":"bounce.tracking.protection","name":"purge_action","extra":{"success":"true","is_dry_run":"true","require_stateful_bounces":"true","bounce_time":"1753187308","site_host":"google.com.co","glean_timestamp":"1753192252789"}}
+{"timestamp":11585815,"category":"glean","name":"restarted","extra":{"glean.startup.date":"2025-07-22T09:02-05:00","glean_timestamp":"1753192924804"},"execution_counter":1}
+{"timestamp":13504901,"category":"glean","name":"restarted","extra":{"glean.startup.date":"2025-07-22T09:34-05:00","glean_timestamp":"1753194843891"},"execution_counter":2}

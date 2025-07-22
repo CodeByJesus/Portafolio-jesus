@@ -1,0 +1,40 @@
+2025-07-16 09:33:19.284 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2025-07-16 09:33:19.315 [info] Native locator: Refresh started
+2025-07-16 09:33:19.504 [info] Native locator: Refresh started
+2025-07-16 09:33:19.592 [info] > pyenv which python
+2025-07-16 09:33:19.592 [info] cwd: .
+2025-07-16 09:33:20.396 [info] Native locator: Refresh finished in 1072 ms
+2025-07-16 09:33:20.438 [info] Python interpreter path: /bin/python3
+2025-07-16 09:33:22.871 [info] Starting Pylance language server.
+2025-07-16 09:40:15.360 [info] Discover tests for workspace name: proyeto_django - uri: /home/jesus/proyeto_django/miportafolio/urls.py
+2025-07-16 09:40:17.988 [info] Discover tests for workspace name: proyeto_django - uri: /home/jesus/proyeto_django/portafolio/urls.py
+2025-07-16 09:42:20.395 [info] CreateEnv Trigger - Skipping for /home/jesus/proyeto_django/miportafolio/urls.py
+2025-07-16 09:42:20.619 [info] Discover tests for workspace name: proyeto_django - uri: /home/jesus/proyeto_django/miportafolio/urls.py
+2025-07-16 09:58:36.557 [info] Discover tests for workspace name: undefined - uri: /home/jesus/.config/Code/User/settings.json
+2025-07-16 10:01:22.405 [info] Discover tests for workspace name: undefined - uri: /home/jesus/.config/Code/User/settings.json
+2025-07-16 10:01:22.805 [info] Discover tests for workspace name: undefined - uri: /home/jesus/.config/Code/User/settings.json
+2025-07-16 10:01:23.211 [info] Discover tests for workspace name: undefined - uri: /home/jesus/.config/Code/User/settings.json
+2025-07-16 10:05:52.796 [info] Discover tests for workspace name: proyeto_django - uri: /home/jesus/proyeto_django/portafolio/views.py
+2025-07-16 10:05:53.255 [info] Discover tests for workspace name: proyeto_django - uri: /home/jesus/proyeto_django/portafolio/views.py
+2025-07-16 10:09:22.939 [info] Discover tests for workspace name: proyeto_django - uri: /home/jesus/proyeto_django/portafolio/views.py
+2025-07-16 10:09:23.399 [info] Discover tests for workspace name: proyeto_django - uri: /home/jesus/proyeto_django/portafolio/views.py
+2025-07-16 10:11:40.828 [info] Discover tests for workspace name: proyeto_django - uri: /home/jesus/proyeto_django/portafolio/views.py
+2025-07-16 10:11:41.482 [info] Discover tests for workspace name: proyeto_django - uri: /home/jesus/proyeto_django/portafolio/views.py
+2025-07-16 10:11:42.142 [info] Discover tests for workspace name: proyeto_django - uri: /home/jesus/proyeto_django/portafolio/views.py
+2025-07-16 10:12:28.080 [info] Discover tests for workspace name: proyeto_django - uri: /home/jesus/proyeto_django/portafolio/views.py
+2025-07-16 10:12:28.463 [info] Discover tests for workspace name: proyeto_django - uri: /home/jesus/proyeto_django/portafolio/views.py
+2025-07-16 10:12:28.847 [info] Discover tests for workspace name: proyeto_django - uri: /home/jesus/proyeto_django/portafolio/views.py
+2025-07-16 10:13:46.970 [info] Discover tests for workspace name: proyeto_django - uri: /home/jesus/proyeto_django/portafolio/views.py
+2025-07-16 10:13:47.348 [info] Discover tests for workspace name: proyeto_django - uri: /home/jesus/proyeto_django/portafolio/views.py
+2025-07-16 10:15:19.218 [info] Discover tests for workspace name: proyeto_django - uri: /home/jesus/proyeto_django/portafolio/views.py
+2025-07-16 10:15:19.674 [info] Discover tests for workspace name: proyeto_django - uri: /home/jesus/proyeto_django/portafolio/views.py
+2025-07-16 10:15:43.634 [info] Discover tests for workspace name: proyeto_django - uri: /home/jesus/proyeto_django/portafolio/views.py
+2025-07-16 10:15:44.068 [info] Discover tests for workspace name: proyeto_django - uri: /home/jesus/proyeto_django/portafolio/views.py
+2025-07-16 10:18:58.376 [info] Discover tests for workspace name: proyeto_django - uri: /home/jesus/proyeto_django/portafolio/views.py
+2025-07-16 10:18:58.876 [info] Discover tests for workspace name: proyeto_django - uri: /home/jesus/proyeto_django/portafolio/views.py
+2025-07-16 10:24:21.274 [info] Discover tests for workspace name: proyeto_django - uri: /home/jesus/proyeto_django/portafolio/urls.py
+2025-07-16 10:27:34.055 [info] Discover tests for workspace name: proyeto_django - uri: /home/jesus/proyeto_django/portafolio/views.py
+2025-07-16 10:27:36.068 [info] Discover tests for workspace name: proyeto_django - uri: /home/jesus/proyeto_django/portafolio/urls.py
+2025-07-16 10:27:44.228 [info] Discover tests for workspace name: proyeto_django - uri: /home/jesus/proyeto_django/portafolio/urls.py
+2025-07-16 10:32:36.384 [info] Discover tests for workspace name: proyeto_django - uri: /home/jesus/proyeto_django/portafolio/views.py
+2025-07-16 10:32:42.709 [info] Discover tests for workspace name: proyeto_django - uri: /home/jesus/proyeto_django/portafolio/urls.py

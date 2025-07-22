@@ -1,0 +1,10 @@
+2025-07-21 18:34:55.198 [error] Invalid path provided: /home/jesus/portafolio_astro, ENOENT: no such file or directory, stat '/home/jesus/portafolio_astro'
+2025-07-21 18:34:55.198 [info] update#setState idle
+2025-07-21 18:35:05.369 [error] #1: https://update.code.visualstudio.com/api/update/linux-x64/stable/cb0c47c0cfaad0757385834bd89d410c78a856c0 - error undefined net::ERR_SOCKET_NOT_CONNECTED
+2025-07-21 18:35:05.371 [error] update#isLatestVersion(): failed to check for updates
+2025-07-21 18:35:05.371 [error] Error: net::ERR_SOCKET_NOT_CONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:123516)
+    at SimpleURLLoaderWrapper.emit (node:events:518:28)
+2025-07-21 18:35:17.727 [info] Extension host with pid 3356 exited with code: 0, signal: unknown.
+2025-07-21 18:35:25.170 [info] update#setState checking for updates
+2025-07-21 18:35:25.346 [info] update#setState available for download

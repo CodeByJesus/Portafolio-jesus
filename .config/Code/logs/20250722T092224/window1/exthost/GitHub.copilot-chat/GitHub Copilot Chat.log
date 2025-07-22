@@ -1,0 +1,45 @@
+2025-07-22 09:22:32.940 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2025-07-22 09:22:32.940 [info] Using the Electron fetcher.
+2025-07-22 09:22:32.940 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2025-07-22 09:22:32.940 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2025-07-22 09:22:32.940 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2025-07-22 09:22:38.491 [info] Logged in as CodeByJesus
+2025-07-22 09:22:39.711 [info] Got Copilot token for CodeByJesus
+2025-07-22 09:22:39.728 [info] activationBlocker from 'languageModelAccess' took for 2731ms
+2025-07-22 09:22:39.941 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-07-22 09:22:39.941 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-07-22 09:22:39.969 [info] Registering default platform agent...
+2025-07-22 09:22:39.971 [info] activationBlocker from 'conversationFeature' took for 2995ms
+2025-07-22 09:22:40.039 [info] BYOK: Copilot Chat known models list fetched successfully.
+2025-07-22 09:22:40.193 [info] Fetched model metadata in 467ms c7dfa65c-f8ba-4348-8892-834a047526e6
+2025-07-22 09:29:39.149 [info] TypeScript server plugin activated.
+2025-07-22 09:29:39.149 [info] Registered TypeScript context provider with Copilot inline completions.
+2025-07-22 09:37:41.933 [info] Fetched model metadata in 430ms 7eda25aa-7b37-4163-b6d3-28e9299c5b6c
+2025-07-22 09:52:42.015 [info] Logged in as CodeByJesus
+2025-07-22 09:52:42.803 [info] Got Copilot token for CodeByJesus
+2025-07-22 09:52:42.864 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-07-22 09:52:42.955 [info] BYOK: Copilot Chat known models list fetched successfully.
+2025-07-22 10:22:42.972 [info] Logged in as CodeByJesus
+2025-07-22 10:22:43.845 [info] Got Copilot token for CodeByJesus
+2025-07-22 10:22:43.889 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-07-22 10:22:43.924 [info] BYOK: Copilot Chat known models list fetched successfully.
+2025-07-22 10:52:45.244 [info] Logged in as CodeByJesus
+2025-07-22 10:52:46.097 [info] Got Copilot token for CodeByJesus
+2025-07-22 10:52:46.160 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-07-22 10:52:46.654 [info] BYOK: Copilot Chat known models list fetched successfully.
+2025-07-22 11:22:46.247 [info] Logged in as CodeByJesus
+2025-07-22 11:22:47.073 [info] Got Copilot token for CodeByJesus
+2025-07-22 11:22:47.128 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-07-22 11:22:47.663 [info] BYOK: Copilot Chat known models list fetched successfully.
+2025-07-22 11:52:47.170 [info] Logged in as CodeByJesus
+2025-07-22 11:52:47.987 [info] Got Copilot token for CodeByJesus
+2025-07-22 11:52:48.024 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-07-22 11:52:48.606 [info] BYOK: Copilot Chat known models list fetched successfully.
+2025-07-22 12:22:48.191 [info] Logged in as CodeByJesus
+2025-07-22 12:22:49.070 [info] Got Copilot token for CodeByJesus
+2025-07-22 12:22:49.106 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-07-22 12:22:49.895 [info] BYOK: Copilot Chat known models list fetched successfully.
+2025-07-22 12:52:49.138 [info] Logged in as CodeByJesus
+2025-07-22 12:52:49.959 [info] Got Copilot token for CodeByJesus
+2025-07-22 12:52:49.992 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-07-22 12:52:50.547 [info] BYOK: Copilot Chat known models list fetched successfully.

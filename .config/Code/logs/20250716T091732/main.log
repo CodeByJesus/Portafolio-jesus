@@ -1,0 +1,38 @@
+2025-07-16 09:17:32.794 [info] update#setState idle
+2025-07-16 09:17:52.957 [error] #1: https://update.code.visualstudio.com/api/update/linux-x64/stable/cb0c47c0cfaad0757385834bd89d410c78a856c0 - error undefined net::ERR_SOCKET_NOT_CONNECTED
+2025-07-16 09:17:52.957 [error] update#isLatestVersion(): failed to check for updates
+2025-07-16 09:17:52.958 [error] Error: net::ERR_SOCKET_NOT_CONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:123516)
+    at SimpleURLLoaderWrapper.emit (node:events:518:28)
+2025-07-16 09:18:02.798 [info] update#setState checking for updates
+2025-07-16 09:18:03.312 [info] update#setState idle
+2025-07-16 09:18:06.148 [info] Extension host with pid 2797 exited with code: 0, signal: unknown.
+2025-07-16 09:28:01.914 [info] Extension host with pid 2953 exited with code: 0, signal: unknown.
+2025-07-16 09:28:02.014 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 2944]: crashed with code 15 and reason 'killed'
+2025-07-16 10:18:02.818 [info] update#setState checking for updates
+2025-07-16 10:18:03.676 [info] update#setState available for download
+2025-07-16 10:58:46.216 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-16 10:58:54.982 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-16 10:59:05.997 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-16 11:01:00.767 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-16 11:01:12.659 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-16 11:01:40.700 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-16 11:02:22.878 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-16 11:03:48.311 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-16 11:04:25.844 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-16 11:04:41.091 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-16 11:04:52.240 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-16 11:06:07.631 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-16 11:06:17.441 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-16 11:06:50.412 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-16 11:08:16.791 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-16 11:08:44.208 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-16 11:08:50.639 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-16 11:10:18.569 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-16 11:11:23.996 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-16 11:13:57.038 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-16 11:14:04.266 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-16 11:15:16.336 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-16 11:15:53.707 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-16 11:33:16.127 [info] Extension host with pid 3342 exited with code: 0, signal: unknown.
+2025-07-16 11:33:16.294 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 3333]: crashed with code 15 and reason 'killed'

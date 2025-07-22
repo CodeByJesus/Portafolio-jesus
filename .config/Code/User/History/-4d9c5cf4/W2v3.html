@@ -1,0 +1,97 @@
+{% extends 'base.html' %}
+{% block titulo %}Inicio - Jesus{% endblock %}
+
+{% block contenido %}
+
+<section id="inicio" class="mb-5 text-center">
+  <p class="fs-4 mb-2">Hola <span style="font-size:1.5rem;">👋</span>, soy</p>
+  <h1 class="nombre-animado mb-0">Jesus</h1>
+  <h2 class="nombre-animado" style="font-size:2.2rem; margin-top: -0.5rem;">Martinez</h2>
+  <p class="fs-5 text-secondary">Desarrollador Junior con especialidad en Backend y Analítica de Datos</p>
+</section>
+
+<section id="conocimientos" class="mb-5 text-center">
+  <h2>Conocimientos</h2>
+  <div class="d-flex flex-wrap justify-content-center gap-4 mt-4">
+    <span class="d-flex align-items-center gap-2">
+      <i class="fa-brands fa-python" style="font-size: 2rem; color: #3776AB;"></i>
+      Python
+    </span>
+    <span class="d-flex align-items-center gap-2">
+      <i class="fa-brands fa-python" style="font-size: 2rem; color: #092E20;"></i>
+      Django
+    </span>
+    <span class="d-flex align-items-center gap-2">
+      <i class="bi bi-git" style="font-size: 2rem; color: #F05032;"></i>
+      Git
+    </span>
+    <span class="d-flex align-items-center gap-2">
+      <i class="bi bi-filetype-html" style="font-size: 2rem; color: #e34c26;"></i>
+      HTML
+    </span>
+    <span class="d-flex align-items-center gap-2">
+      <i class="bi bi-filetype-css" style="font-size: 2rem; color: #264de4;"></i>
+      CSS
+    </span>
+    <span class="d-flex align-items-center gap-2">
+      <i class="bi bi-bootstrap" style="font-size: 2rem; color: #7952b3;"></i>
+      Bootstrap
+    </span>
+    <span class="d-flex align-items-center gap-2">
+      <i class="bi bi-filetype-js" style="font-size: 2rem; color: #f7df1e;"></i>
+      JavaScript
+    </span>
+    <span class="d-flex align-items-center gap-2">
+      <i class="bi bi-database" style="font-size: 2rem; color: #336791;"></i>
+      SQLite / PostgreSQL
+    </span>
+    <span class="d-flex align-items-center gap-2">
+      <i class="bi bi-plug" style="font-size: 2rem; color: #0d6efd;"></i>
+      Consumo de APIs públicas (REST Countries, PokeAPI, OpenWeatherMap)
+    </span>
+    <span class="d-flex align-items-center gap-2">
+      <i class="bi bi-gear" style="font-size: 2rem; color: #198754;"></i>
+      Desarrollo de APIs con Django REST Framework
+    </span>
+  </div>
+</section>
+
+<section id="proyectos" class="mb-5">
+  <h2>Proyectos recientes</h2>
+  <div class="row">
+    {% for proyecto in proyectos %}
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm border-primary">
+          <div class="card-body">
+            <h5 class="card-title">{{ proyecto.titulo }}</h5>
+            <p class="card-text">{{ proyecto.descripcion }}</p>
+            <p><strong>Tecnologías:</strong> {{ proyecto.tecnologias }}</p>
+            {% if proyecto.enlace %}
+              <a href="{{ proyecto.enlace }}" class="btn btn-primary" target="_blank">Ver proyecto</a>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    {% empty %}
+      <p>No se encontraron proyectos aún.</p>
+    {% endfor %}
+  </div>
+</section>
+
+<section id="Redes" class="mb-5 text-center">
+  <h2>Redes</h2>
+  <a href="https://www.linkedin.com/in/jesus-martinez-bb4596348/" target="_blank" class="mx-2" title="LinkedIn">
+    <i class="bi bi-linkedin" style="font-size: 2rem;"></i>
+  </a>
+  <a href="https://github.com/CodeByJesus" target="_blank" class="mx-2" title="GitHub">
+    <i class="bi bi-github" style="font-size: 2rem;"></i>
+  </a>
+  <a href="https://wa.me/3018193287" target="_blank" class="mx-2" title="WhatsApp">
+    <i class="bi bi-whatsapp" style="font-size: 2rem;"></i>
+  </a>
+  <a href="https://t.me/eljesus303" target="_blank" class="mx-2" title="Telegram">
+    <i class="bi bi-telegram" style="font-size: 2rem;"></i>
+  </a>
+</section>
+</section>
+{% endblock %}

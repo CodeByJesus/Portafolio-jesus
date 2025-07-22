@@ -1,0 +1,42 @@
+{
+  "updates": {
+    "gvfs": {
+      "type": "package",
+      "since": "2025.07.22",
+      "days": 1
+    },
+    "libsoup2.4": {
+      "type": "package",
+      "since": "2025.07.22",
+      "days": 1
+    },
+    "libsoup3": {
+      "type": "package",
+      "since": "2025.07.22",
+      "days": 1
+    },
+    "linux": {
+      "type": "kernel",
+      "since": "2025.07.22",
+      "days": 1
+    },
+    "netplan.io": {
+      "type": "package",
+      "since": "2025.07.22",
+      "days": 1
+    },
+    "openvpn": {
+      "type": "package",
+      "since": "2025.07.22",
+      "days": 1
+    },
+    "samba": {
+      "type": "package",
+      "since": "2025.07.22",
+      "days": 1
+    }
+  },
+  "version": 1,
+  "checked": "2025.07.22",
+  "notified": "2025.07.16"
+}

@@ -1,0 +1,22 @@
+2025-07-16 11:33:31.936 [info] Starting Python Locator /home/jesus/.vscode/extensions/ms-python.python-2025.10.0-linux-x64/python-env-tools/bin/pet server
+2025-07-16 11:33:31.988 [info] Discovered env: /home/jesus/proyeto_django/venv/bin/python
+2025-07-16 11:33:31.990 [info] Discovered env: /bin/python3
+2025-07-16 11:33:31.996 [info] Discovered env: /usr/bin/python3
+2025-07-16 11:33:31.999 [info] Locator Conda took 205.582464ms
+2025-07-16 11:33:31.999 [info] Locator Homebrew took 97.191µs
+2025-07-16 11:33:32.000 [info] Locator LinuxGlobal took 153.495073ms
+2025-07-16 11:33:32.000 [info] Locator PipEnv took 15.69µs
+2025-07-16 11:33:32.000 [info] Locator Pixi took 27.31µs
+2025-07-16 11:33:32.003 [info] Locator Poetry took 232.594µs
+2025-07-16 11:33:32.003 [info] Locator PyEnv took 149.922µs
+2025-07-16 11:33:32.003 [info] Locator Venv took 14.261µs
+2025-07-16 11:33:32.006 [info] Locator VirtualEnv took 14.81µs
+2025-07-16 11:33:32.006 [info] Locator VirtualEnvWrapper took 65.861µs
+2025-07-16 11:33:32.006 [info] Locator GlobalVirtualEnvs took 203.303µs
+2025-07-16 11:33:32.006 [info] Locator Locators took 206.733253ms
+2025-07-16 11:33:32.006 [info] Locator Path took 222.284512ms
+2025-07-16 11:33:32.007 [info] Locator Workspaces took 89.212942ms
+2025-07-16 11:33:32.007 [info] Refresh completed in 222ms
+2025-07-16 11:33:32.025 [info] Resolved Python Environment /bin/python3
+2025-07-16 11:33:32.221 [info] Resolved /home/jesus/proyeto_django/venv/bin/python
+2025-07-16 11:34:11.039 [info] Resolved Python Environment /bin/python3

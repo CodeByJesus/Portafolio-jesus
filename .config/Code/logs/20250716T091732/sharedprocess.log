@@ -1,0 +1,45 @@
+2025-07-16 09:17:35.613 [info] Started initializing default profile extensions in extensions installation folder. file:///home/jesus/.vscode/extensions
+2025-07-16 09:17:35.860 [warning] Failed to create default profile extensions manifest in extensions installation folder. file:///home/jesus/.vscode/extensions Unable to create file 'vscode-userdata:/home/jesus/.vscode/extensions/extensions.json' that already exists when overwrite flag is not set
+2025-07-16 09:17:35.861 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/jesus/.vscode/extensions
+2025-07-16 09:32:52.113 [info] Getting Manifest... ms-python.python
+2025-07-16 09:32:52.491 [info] Installing extension: ms-python.python {"isMachineScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/jesus/.vscode/extensions/extensions.json","path":"/home/jesus/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.102.0","date":"2025-07-09T22:10:34.600Z"}}
+2025-07-16 09:32:53.150 [info] Getting Manifest... ms-python.vscode-pylance
+2025-07-16 09:32:54.020 [info] Getting Manifest... ms-python.debugpy
+2025-07-16 09:32:54.208 [info] Installing extension: ms-python.vscode-pylance {"isMachineScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/jesus/.vscode/extensions/extensions.json","path":"/home/jesus/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.102.0","date":"2025-07-09T22:10:34.600Z"},"pinned":false,"installGivenVersion":false,"context":{"dependecyOrPackExtensionInstall":true}}
+2025-07-16 09:32:54.208 [info] Installing extension: ms-python.debugpy {"isMachineScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/jesus/.vscode/extensions/extensions.json","path":"/home/jesus/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.102.0","date":"2025-07-09T22:10:34.600Z"},"pinned":false,"installGivenVersion":false,"context":{"dependecyOrPackExtensionInstall":true}}
+2025-07-16 09:33:00.819 [info] Extension signature verification result for ms-python.debugpy: Success. Internal Code: 0. Executed: true. Duration: 2268ms.
+2025-07-16 09:33:01.302 [info] Extension signature verification result for ms-python.python: Success. Internal Code: 0. Executed: true. Duration: 1761ms.
+2025-07-16 09:33:02.916 [info] Extracted extension to file:///home/jesus/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64: ms-python.debugpy
+2025-07-16 09:33:03.005 [info] Renamed to /home/jesus/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64
+2025-07-16 09:33:06.533 [info] Extracted extension to file:///home/jesus/.vscode/extensions/ms-python.python-2025.10.0-linux-x64: ms-python.python
+2025-07-16 09:33:06.662 [info] Renamed to /home/jesus/.vscode/extensions/ms-python.python-2025.10.0-linux-x64
+2025-07-16 09:33:07.097 [info] Extension signature verification result for ms-python.vscode-pylance: Success. Internal Code: 0. Executed: true. Duration: 1575ms.
+2025-07-16 09:33:17.651 [info] Extracted extension to file:///home/jesus/.vscode/extensions/ms-python.vscode-pylance-2025.6.2: ms-python.vscode-pylance
+2025-07-16 09:33:18.043 [info] Renamed to /home/jesus/.vscode/extensions/ms-python.vscode-pylance-2025.6.2
+2025-07-16 09:33:18.074 [info] Extension installed successfully: ms-python.debugpy vscode-userdata:/home/jesus/.vscode/extensions/extensions.json
+2025-07-16 09:33:18.075 [info] Extension installed successfully: ms-python.python vscode-userdata:/home/jesus/.vscode/extensions/extensions.json
+2025-07-16 09:33:18.075 [info] Extension installed successfully: ms-python.vscode-pylance vscode-userdata:/home/jesus/.vscode/extensions/extensions.json
+2025-07-16 09:50:13.422 [info] Getting Manifest... jeffersonlicet.snipped
+2025-07-16 09:50:13.796 [info] Installing extension: jeffersonlicet.snipped {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/jesus/.vscode/extensions/extensions.json","path":"/home/jesus/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.102.0","date":"2025-07-09T22:10:34.600Z"}}
+2025-07-16 09:50:16.836 [info] Extension signature verification result for jeffersonlicet.snipped: Success. Internal Code: 0. Executed: true. Duration: 1701ms.
+2025-07-16 09:50:17.089 [info] Extracted extension to file:///home/jesus/.vscode/extensions/jeffersonlicet.snipped-1.3.0: jeffersonlicet.snipped
+2025-07-16 09:50:17.104 [info] Renamed to /home/jesus/.vscode/extensions/jeffersonlicet.snipped-1.3.0
+2025-07-16 09:50:17.133 [info] Extension installed successfully: jeffersonlicet.snipped vscode-userdata:/home/jesus/.vscode/extensions/extensions.json
+2025-07-16 09:51:09.176 [info] Uninstalling extension from the profile: jeffersonlicet.snipped@1.3.0 vscode-userdata:/home/jesus/.vscode/extensions/extensions.json
+2025-07-16 09:51:09.213 [info] Marked extension as removed jeffersonlicet.snipped-1.3.0
+2025-07-16 09:51:10.077 [info] Successfully uninstalled extension from the profile jeffersonlicet.snipped@1.3.0 vscode-userdata:/home/jesus/.vscode/extensions/extensions.json
+2025-07-16 09:51:13.972 [info] Getting Manifest... jannik.htmlsnippets
+2025-07-16 09:51:14.354 [info] Installing extension: jannik.htmlsnippets {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/jesus/.vscode/extensions/extensions.json","path":"/home/jesus/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.102.0","date":"2025-07-09T22:10:34.600Z"}}
+2025-07-16 09:51:16.342 [info] Extension signature verification result for jannik.htmlsnippets: Success. Internal Code: 0. Executed: true. Duration: 1116ms.
+2025-07-16 09:51:16.372 [info] Extracted extension to file:///home/jesus/.vscode/extensions/jannik.htmlsnippets-1.0.5: jannik.htmlsnippets
+2025-07-16 09:51:16.383 [info] Renamed to /home/jesus/.vscode/extensions/jannik.htmlsnippets-1.0.5
+2025-07-16 09:51:16.407 [info] Extension installed successfully: jannik.htmlsnippets vscode-userdata:/home/jesus/.vscode/extensions/extensions.json
+2025-07-16 09:52:08.931 [info] Uninstalling extension from the profile: jannik.htmlsnippets@1.0.5 vscode-userdata:/home/jesus/.vscode/extensions/extensions.json
+2025-07-16 09:52:08.971 [info] Marked extension as removed jannik.htmlsnippets-1.0.5
+2025-07-16 09:52:09.189 [info] Successfully uninstalled extension from the profile jannik.htmlsnippets@1.0.5 vscode-userdata:/home/jesus/.vscode/extensions/extensions.json
+2025-07-16 09:53:24.103 [info] Getting Manifest... abusaidm.html-snippets
+2025-07-16 09:53:24.592 [info] Installing extension: abusaidm.html-snippets {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/jesus/.vscode/extensions/extensions.json","path":"/home/jesus/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.102.0","date":"2025-07-09T22:10:34.600Z"}}
+2025-07-16 09:53:26.658 [info] Extension signature verification result for abusaidm.html-snippets: Success. Internal Code: 0. Executed: true. Duration: 1055ms.
+2025-07-16 09:53:26.676 [info] Extracted extension to file:///home/jesus/.vscode/extensions/abusaidm.html-snippets-0.2.1: abusaidm.html-snippets
+2025-07-16 09:53:26.690 [info] Renamed to /home/jesus/.vscode/extensions/abusaidm.html-snippets-0.2.1
+2025-07-16 09:53:26.713 [info] Extension installed successfully: abusaidm.html-snippets vscode-userdata:/home/jesus/.vscode/extensions/extensions.json

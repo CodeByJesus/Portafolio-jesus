@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% block titulo %}Inicio - Jesus{% endblock %}
+
+{% block contenido %}
+<h2 class="mb-4">Proyectos recientes</h2>
+
+<div class="row">
+  {% for proyecto in proyectos %}
+    <div class="col-md-4 mb-4">
+      <div class="card h-100 shadow-sm">
+        <div class="card-body">
+          <h5 class="card-title">{{ proyecto.titulo }}</h5>
+          <p class="card-text">{{ proyecto.descripcion }}</p>
+          <p><strong>Tecnologías:</strong> {{ proyecto.tecnologias }}</p>
+          {% if proyecto.enlace %}
+            <a href="{{ proyecto.enlace }}" class="btn btn-primary" target="_blank">Ver proyecto</a>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  {% empty %}
+    <p>No se encontraron proyectos aún.</p>
+  {% endfor %}
+</div>
+{% endblock %}

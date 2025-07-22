@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+{% block titulo %}Inicio - Jesus{% endblock %}
+
+{% block contenido %}
+<div class="text-center mb-5">
+  <img src="URL_DE_TU_FOTO" class="rounded-circle" width="120" alt="Tu foto">
+  <h1 class="mt-3">¡Hola! Soy Jesús</h1>
+  <p>Desarrollador web apasionado por crear soluciones útiles y elegantes.</p>
+</div>
+<h2 class="mb-4">Proyectos recientes</h2>
+<div class="row">
+  {% for proyecto in proyectos %}
+    <div class="col-md-4 mb-4">
+      <div class="card h-100 shadow-sm border-primary">
+        <div class="card-body">
+          <h5 class="card-title">{{ proyecto.titulo }}</h5>
+          <p class="card-text">{{ proyecto.descripcion }}</p>
+          <p><strong>Tecnologías:</strong> {{ proyecto.tecnologias }}</p>
+          {% if proyecto.enlace %}
+            <a href="{{ proyecto.enlace }}" class="btn btn-primary" target="_blank">Ver proyecto</a>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  {% empty %}
+    <p>No se encontraron proyectos aún.</p>
+  {% endfor %}
+</div>
+{% endblock %}

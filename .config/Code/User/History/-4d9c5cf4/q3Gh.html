@@ -1,0 +1,168 @@
+{% extends 'base.html' %}
+{% block titulo %}Inicio - Jesus{% endblock %}
+
+{% block contenido %}
+
+{% load static %}
+<section id="inicio" class="mb-5 text-center">
+  <p class="fs-4 mb-2">Hola <span style="font-size:1.5rem;">👋</span>, soy</p>
+  <h1 class="nombre-animado nombre-grande mb-0">Jesus</h1>
+  <h2 class="nombre-animado nombre-mediano">Martinez</h2>
+  <p class="fs-5 mb-4">Desarrollador Junior con especialidad en Backend y Analítica de Datos</p>
+  <div class="d-flex justify-content-center gap-2">
+      <a href="{% static 'cv/CV-jesus_martinez.pdf' %}" class="btn btn-primary" download>
+          <i class="bi bi-download me-2"></i>Descargar CV
+      </a>
+      <a href="#proyectos" class="btn btn-outline-light">
+          <i class="bi bi-arrow-down-circle me-2"></i>Ver Proyectos
+      </a>
+  </div>
+</section>
+
+<section id="sobre-mi" class="mb-5">
+  <div class="row justify-content-center align-items-center">
+    <div class="col-md-4 text-center mb-4 mb-md-0">
+      <img src="https://via.placeholder.com/250" alt="Foto" class="profile-pic">
+    </div>
+    <div class="col-md-8">
+      <h2 class="text-center text-md-start">Sobre Mí</h2>
+      <p class="lead">
+        Soy un apasionado desarrollador con un fuerte interés en construir soluciones eficientes y escalables. Me encanta aprender nuevas tecnologías y enfrentar desafíos que me permitan crecer profesionalmente. Mi objetivo es aportar valor a través del código y colaborar en proyectos innovadores.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section id="conocimientos" class="mb-5">
+  <h2 class="text-center mb-5">Conocimientos</h2>
+  <div class="row">
+    <!-- Lenguajes -->
+    <div class="col-md-6 mb-4">
+      <h4 class="text-center mb-3">Lenguajes</h4>
+      <div class="d-flex flex-wrap justify-content-center gap-3">
+        <span class="conocimiento-item">
+          <i class="fa-brands fa-python" style="color: #3776AB;"></i> Python
+        </span>
+        <span class="conocimiento-item">
+          <i class="bi bi-filetype-js" style="color: #f7df1e;"></i> JavaScript
+        </span>
+        <span class="conocimiento-item">
+          <i class="bi bi-filetype-html" style="color: #e34c26;"></i> HTML
+        </span>
+        <span class="conocimiento-item">
+          <i class="bi bi-filetype-css" style="color: #264de4;"></i> CSS
+        </span>
+      </div>
+    </div>
+    <!-- Frameworks y Librerías -->
+    <div class="col-md-6 mb-4">
+      <h4 class="text-center mb-3">Frameworks y Librerías</h4>
+      <div class="d-flex flex-wrap justify-content-center gap-3">
+        <span class="conocimiento-item">
+          <i class="fa-brands fa-python" style="color: #092E20;"></i> Django
+        </span>
+        <span class="conocimiento-item">
+          <i class="bi bi-gear" style="color: #198754;"></i> Django REST
+        </span>
+        <span class="conocimiento-item">
+          <i class="bi bi-bootstrap" style="color: #7952b3;"></i> Bootstrap
+        </span>
+      </div>
+    </div>
+    <div class="col-md-6 mb-4">
+      <h4 class="text-center mb-3">Bases de Datos</h4>
+      <div class="d-flex flex-wrap justify-content-center gap-3">
+        <span class="conocimiento-item">
+          <i class="bi bi-database" style="color: #336791;"></i> SQLite
+        </span>
+        <span class="conocimiento-item">
+          <i class="bi bi-database" style="color: #336791;"></i> PostgreSQL
+        </span>
+      </div>
+    </div>
+    <div class="col-md-6 mb-4">
+      <h4 class="text-center mb-3">Herramientas y Otros</h4>
+      <div class="d-flex flex-wrap justify-content-center gap-3">
+        <span class="conocimiento-item">
+          <i class="bi bi-git" style="color: #F05032;"></i> Git
+        </span>
+        <span class="conocimiento-item">
+          <i class="bi bi-plug" style="color: #0d6efd;"></i> APIs REST
+        </span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="proyectos" class="mb-5">
+  <h2 class="text-center">Proyectos recientes</h2>
+  <div class="row mt-4">
+    {% for proyecto in proyectos %}
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="card project-card h-100">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">{{ proyecto.titulo }}</h5>
+            <p class="card-text flex-grow-1">{{ proyecto.descripcion }}</p>
+            <div class="tecnologias-container mt-auto">
+              <p><strong>Tecnologías:</strong> {{ proyecto.tecnologias }}</p>
+            </div>
+            {% if proyecto.enlace %}
+              <a href="{{ proyecto.enlace }}" class="btn btn-outline-light mt-3" target="_blank">Ver proyecto</a>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    {% empty %}
+      <div class="col">
+        <p class="text-center">No se encontraron proyectos aún.</p>
+      </div>
+    {% endfor %}
+  </div>
+</section>
+
+<section id="contacto" class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-5">Contacto</h2>
+    <div class="row">
+      <div class="col-md-5 mb-4 mb-md-0">
+        <h4 class="mb-3">Contactame!</h4>
+        <p>Si tienes alguna pregunta, una oferta de trabajo o simplemente quieres saludar, no dudes en contactarme. ¡Estoy disponible para nuevos proyectos!</p>
+        <p><i class="bi bi-envelope-fill me-2"></i> <a href="mailto:jesusdmartinezj03@gmail.com" class="text-white">jesusdmartinezj03@gmail.com</a></p>
+        <div class="redes-sociales mt-4">
+          <a href="https://www.linkedin.com/in/jesus-martinez-bb4596348/" target="_blank" class="social-icon me-3" title="LinkedIn"><i class="bi bi-linkedin"></i></a>
+          <a href="https://github.com/CodeByJesus" target="_blank" class="social-icon me-3" title="GitHub"><i class="bi bi-github"></i></a>
+          <a href="https://wa.me/3018193287" target="_blank" class="social-icon me-3" title="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+          <a href="https://t.me/eljesus303" target="_blank" class="social-icon" title="Telegram"><i class="bi bi-telegram"></i></a>
+        </div>
+      </div>
+      <div class="col-md-7">
+        <form action="{% url 'inicio' %}" method="POST">
+          {% csrf_token %}
+          <div class="mb-3">
+            <label for="nombre" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="nombre" name="nombre" required>
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Correo Electrónico</label>
+            <input type="email" class="form-control" id="email" name="email" required>
+          </div>
+          <div class="mb-3">
+            <label for="mensaje" class="form-label">Mensaje</label>
+            <textarea class="form-control" id="mensaje" name="mensaje" rows="4" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary w-100">Enviar Mensaje</button>
+        </form>
+        {% if messages %}
+          <div class="mt-3">
+            {% for message in messages %}
+              <div class="alert alert-success" role="alert">
+                {{ message }}
+              </div>
+            {% endfor %}
+          </div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock %}

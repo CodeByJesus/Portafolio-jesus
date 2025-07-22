@@ -1,0 +1,27 @@
+2025-07-21 18:35:24.037 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2025-07-21 18:35:24.037 [info] Native locator: Refresh started
+2025-07-21 18:35:24.037 [info] Native locator: Refresh started
+2025-07-21 18:35:24.037 [info] Native locator: Refresh started
+2025-07-21 18:35:24.049 [info] Native locator: Refresh finished in 309 ms
+2025-07-21 18:35:24.079 [info] > pyenv which python
+2025-07-21 18:35:24.079 [info] cwd: .
+2025-07-21 18:35:24.153 [info] Python interpreter path: /usr/bin/python3
+2025-07-21 18:35:27.394 [info] Starting Pylance language server.
+2025-07-21 19:02:17.970 [info] Discover tests for workspace name: portafolio - uri: /home/jesus/portafolio/web/admin.py
+2025-07-21 19:02:18.529 [info] Discover tests for workspace name: portafolio - uri: /home/jesus/portafolio/web/admin.py
+2025-07-21 19:06:39.909 [info] Discover tests for workspace name: portafolio - uri: /home/jesus/portafolio/web/models.py
+2025-07-21 19:06:40.387 [info] Discover tests for workspace name: portafolio - uri: /home/jesus/portafolio/web/models.py
+2025-07-21 19:08:30.657 [info] Discover tests for workspace name: portafolio - uri: /home/jesus/portafolio/web/admin.py
+2025-07-21 19:08:31.150 [info] Discover tests for workspace name: portafolio - uri: /home/jesus/portafolio/web/admin.py
+2025-07-21 19:10:13.467 [info] Discover tests for workspace name: portafolio - uri: /home/jesus/portafolio/portafolio/settings.py
+2025-07-21 19:10:14.076 [info] Discover tests for workspace name: portafolio - uri: /home/jesus/portafolio/portafolio/settings.py
+2025-07-21 19:10:33.128 [info] Discover tests for workspace name: portafolio - uri: /home/jesus/portafolio/portafolio/settings.py
+2025-07-21 19:10:33.563 [info] Discover tests for workspace name: portafolio - uri: /home/jesus/portafolio/portafolio/settings.py
+2025-07-21 19:10:55.384 [info] Discover tests for workspace name: portafolio - uri: /home/jesus/portafolio/portafolio/settings.py
+2025-07-21 19:10:55.841 [info] Discover tests for workspace name: portafolio - uri: /home/jesus/portafolio/portafolio/settings.py
+2025-07-21 19:29:44.279 [info] Discover tests for workspace name: portafolio - uri: /home/jesus/portafolio/web/views.py
+2025-07-21 19:39:01.849 [info] Discover tests for workspace name: portafolio - uri: /home/jesus/portafolio/web/views.py
+2025-07-21 19:39:02.357 [info] Discover tests for workspace name: portafolio - uri: /home/jesus/portafolio/web/views.py
+2025-07-21 19:39:03.066 [info] Discover tests for workspace name: portafolio - uri: /home/jesus/portafolio/web/views.py
+2025-07-21 19:44:14.255 [info] Discover tests for workspace name: portafolio - uri: /home/jesus/portafolio/web/views.py
+2025-07-21 19:45:00.692 [info] Discover tests for workspace name: portafolio - uri: /home/jesus/portafolio/portafolio/settings.py

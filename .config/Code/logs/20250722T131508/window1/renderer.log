@@ -1,0 +1,16 @@
+2025-07-22 13:15:09.777 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vsliveshare.vsliveshare' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-22 13:15:09.791 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.gather' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-22 13:15:09.791 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-pylance' wants API proposal 'mcpConfigurationProvider' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-22 13:15:10.503 [info] Started local extension host with pid 29603.
+2025-07-22 13:15:10.892 [error] Extension 'ms-python.vscode-pylance' wants API proposal 'mcpConfigurationProvider' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-22 13:15:16.176 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-07-22 13:15:17.173 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/jesus/.config/Code/User/settings.json: Expected ',' or '}' after property value in JSON at position 42 (line 5 column 6)
+2025-07-22 13:15:17.612 [info] [perf] Render performance baseline is 94ms
+2025-07-22 13:15:18.860 [info] Extension host (LocalProcess pid: 29603) is unresponsive.
+2025-07-22 13:15:20.050 [info] UNRESPONSIVE extension host: starting to profile NOW
+2025-07-22 13:15:20.307 [error] [Extension Host] (node:29603) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `exe --trace-warnings ...` to show where the warning was created)
+2025-07-22 13:15:20.332 [info] Extension host (LocalProcess pid: 29603) is responsive.
+2025-07-22 13:15:20.333 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2025-07-22 13:15:20.588 [warning] UNRESPONSIVE extension host: 'github.copilot-chat' took 63.92617904699916% of 188.572ms, saved PROFILE here: 'file:///tmp/exthost-7b5466.cpuprofile'
+2025-07-22 13:16:02.055 [error] [text file model] handleSaveError(0) - exit - resulted in a save error: Error: Unable to write file '/home/jesus/portafolio/locale/en/LC_MESSAGES/django.po' (Error: File Modified Since) file:///home/jesus/portafolio/locale/en/LC_MESSAGES/django.po

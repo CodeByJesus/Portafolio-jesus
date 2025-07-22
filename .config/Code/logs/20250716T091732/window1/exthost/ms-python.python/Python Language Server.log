@@ -1,0 +1,43 @@
+2025-07-16 09:33:21.314 [info] (Client) Pylance async client (2025.6.2) started with python extension (2025.10.0)
+2025-07-16 09:33:22.831 [info] [Info  - 9:33:22 a. m.] (3672) Server root directory: file:///home/jesus/.vscode/extensions/ms-python.vscode-pylance-2025.6.2/dist
+2025-07-16 09:33:22.832 [info] [Info  - 9:33:22 a. m.] (3672) Pylance language server 2025.6.2 (pyright version 1.1.402, commit 9496ae00) starting
+2025-07-16 09:33:22.841 [info] [Info  - 9:33:22 a. m.] (3672) Starting service instance "proyeto_django" for workspace "/home/jesus/proyeto_django"
+2025-07-16 09:33:22.930 [info] [Info  - 9:33:22 a. m.] (3672) Setting environmentName for service "proyeto_django": "3.12.3 (global)"
+2025-07-16 09:33:22.930 [info] [Info  - 9:33:22 a. m.] (3672) Setting pythonPath for service "proyeto_django": "/bin/python3"
+2025-07-16 09:33:22.931 [info] [Info  - 9:33:22 a. m.] (3672) No include entries specified; assuming /home/jesus/proyeto_django
+2025-07-16 09:33:22.931 [info] [Info  - 9:33:22 a. m.] (3672) Auto-excluding **/node_modules
+2025-07-16 09:33:22.932 [info] [Info  - 9:33:22 a. m.] (3672) Auto-excluding **/__pycache__
+2025-07-16 09:33:22.932 [info] [Info  - 9:33:22 a. m.] (3672) Auto-excluding **/.*
+2025-07-16 09:33:22.963 [info] [Info  - 9:33:22 a. m.] (3672) Assuming Python version 3.12.3.final.0
+2025-07-16 09:33:23.063 [info] [Info  - 9:33:23 a. m.] (3672) Auto-excluding /home/jesus/proyeto_django/venv
+2025-07-16 09:33:23.071 [info] [Info  - 9:33:23 a. m.] (3672) Found 14 source files
+2025-07-16 09:33:23.114 [info] [Info  - 9:33:23 a. m.] (3672) Setting environmentName for service "proyeto_django": "3.12.3 (global)"
+2025-07-16 09:33:23.114 [info] [Info  - 9:33:23 a. m.] (3672) Setting pythonPath for service "proyeto_django": "/bin/python3"
+2025-07-16 09:33:23.115 [info] [Info  - 9:33:23 a. m.] (3672) No include entries specified; assuming /home/jesus/proyeto_django
+2025-07-16 09:33:23.115 [info] [Info  - 9:33:23 a. m.] (3672) Auto-excluding **/node_modules
+2025-07-16 09:33:23.115 [info] [Info  - 9:33:23 a. m.] (3672) Auto-excluding **/__pycache__
+2025-07-16 09:33:23.115 [info] [Info  - 9:33:23 a. m.] (3672) Auto-excluding **/.*
+2025-07-16 09:33:23.158 [info] [Info  - 9:33:23 a. m.] (3672) Assuming Python version 3.12.3.final.0
+2025-07-16 09:33:23.309 [info] [Info  - 9:33:23 a. m.] (3672) Auto-excluding /home/jesus/proyeto_django/venv
+2025-07-16 09:33:23.316 [info] [Info  - 9:33:23 a. m.] (3672) Found 14 source files
+2025-07-16 09:33:24.431 [info] [Info  - 9:33:24 a. m.] (3672) BG: Priority queue background worker(2) root directory: file:///home/jesus/.vscode/extensions/ms-python.vscode-pylance-2025.6.2/dist
+2025-07-16 09:33:24.435 [info] [Info  - 9:33:24 a. m.] (3672) BG: Priority queue background worker(2) started
+2025-07-16 09:33:24.914 [info] [Info  - 9:33:24 a. m.] (3672) BG: Indexer background runner(3) root directory: file:///home/jesus/.vscode/extensions/ms-python.vscode-pylance-2025.6.2/dist (index)
+2025-07-16 09:33:24.914 [info] [Info  - 9:33:24 a. m.] (3672) BG: Indexing(3) started
+2025-07-16 09:33:25.892 [info] [Info  - 9:33:25 a. m.] (3672) BG: scanned(3) 112 files over 1 exec env
+2025-07-16 09:33:28.103 [info] [Info  - 9:33:28 a. m.] (3672) BG: indexed(3) 112 files over 1 exec env
+2025-07-16 09:33:28.182 [info] [Info  - 9:33:28 a. m.] (3672) BG: Indexing finished(3).
+2025-07-16 09:33:46.600 [info] [Info  - 9:33:46 a. m.] (3672) Starting service instance "<default>" for workspace ""
+2025-07-16 09:33:46.643 [info] [Info  - 9:33:46 a. m.] (3672) Setting environmentName for service "<default>": "3.12.3 (global)"
+2025-07-16 09:33:46.644 [info] [Info  - 9:33:46 a. m.] (3672) Setting pythonPath for service "<default>": "/bin/python3"
+2025-07-16 09:33:46.644 [info] [Info  - 9:33:46 a. m.] (3672) No include entries specified; assuming /<default workspace root>
+2025-07-16 09:33:46.645 [info] [Info  - 9:33:46 a. m.] (3672) Auto-excluding **/node_modules
+2025-07-16 09:33:46.645 [info] [Info  - 9:33:46 a. m.] (3672) Auto-excluding **/__pycache__
+2025-07-16 09:33:46.645 [info] [Info  - 9:33:46 a. m.] (3672) Auto-excluding **/.*
+2025-07-16 09:33:46.682 [info] [Info  - 9:33:46 a. m.] (3672) Assuming Python version 3.12.3.final.0
+2025-07-16 09:33:46.765 [info] [Error - 9:33:46 a. m.] (3672) File or directory "/<default workspace root>" does not exist.
+2025-07-16 09:33:46.765 [info] [Info  - 9:33:46 a. m.] (3672) No source files found.
+2025-07-16 09:33:47.611 [info] [Info  - 9:33:47 a. m.] (3672) BG: Priority queue background worker(5) root directory: file:///home/jesus/.vscode/extensions/ms-python.vscode-pylance-2025.6.2/dist
+2025-07-16 09:33:47.614 [info] [Info  - 9:33:47 a. m.] (3672) BG: Priority queue background worker(5) started
+2025-07-16 10:03:23.324 [info] [Info  - 10:03:23 a. m.] (3672) Auto-excluding /home/jesus/proyeto_django/venv
+2025-07-16 10:03:23.340 [info] [Info  - 10:03:23 a. m.] (3672) Found 14 source files

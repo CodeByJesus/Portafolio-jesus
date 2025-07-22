@@ -1,0 +1,392 @@
+2025-07-22 06:51:13.640 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2025-07-22 06:51:13.640 [info] Using the Electron fetcher.
+2025-07-22 06:51:13.640 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2025-07-22 06:51:13.640 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2025-07-22 06:51:13.640 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2025-07-22 06:51:14.073 [info] Logged in as CodeByJesus
+2025-07-22 06:51:14.677 [info] Got Copilot token for CodeByJesus
+2025-07-22 06:51:14.689 [info] activationBlocker from 'languageModelAccess' took for 917ms
+2025-07-22 06:51:14.856 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-07-22 06:51:14.856 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-07-22 06:51:14.858 [info] Registering default platform agent...
+2025-07-22 06:51:14.859 [info] activationBlocker from 'conversationFeature' took for 1093ms
+2025-07-22 06:51:14.940 [info] BYOK: Copilot Chat known models list fetched successfully.
+2025-07-22 06:51:15.013 [info] Fetched model metadata in 325ms a706469c-edbc-40c5-8b87-6ea3d2205ddb
+2025-07-22 06:51:16.091 [info] message 0 returned. finish reason: [stop]
+2025-07-22 06:51:16.091 [info] request done: requestId: [7d56d737-a27c-4687-96a0-ac20935d4f86] model deployment ID: []
+2025-07-22 06:51:16.093 [info] Latest entry: ccreq:latestrequest.copilotmd
+2025-07-22 06:51:16.094 [info] ccreq:62b45288.copilotmd | success | gpt-4o-mini | 485ms | [intentDetection]
+2025-07-22 06:51:16.655 [info] message 0 returned. finish reason: [stop]
+2025-07-22 06:51:16.655 [info] request done: requestId: [c4f48bd5-9b9e-41be-a6a5-b56ce35254d5] model deployment ID: []
+2025-07-22 06:51:16.656 [info] ccreq:1e1ca5f8.copilotmd | success | gpt-4.1 | 528ms | [panel/unknown]
+2025-07-22 06:51:17.087 [info] message 0 returned. finish reason: [stop]
+2025-07-22 06:51:17.087 [info] request done: requestId: [be9f8500-4a40-4d87-af15-caa65e044698] model deployment ID: []
+2025-07-22 06:51:17.089 [info] ccreq:6413b753.copilotmd | success | gpt-4o-mini | 412ms | [title]
+2025-07-22 06:51:20.875 [info] Refetch model metadata: Succeeded in 323ms f9830881-89d6-4845-b830-42cbe0048c56 (C5C8:313A33:34256C:3D3845:687F7B3A) using node-fetch with status 200.
+2025-07-22 06:51:21.167 [info] Refetch model metadata: Succeeded in 283ms b21c9740-1fa5-45a7-9ee4-0130db92fed5 (C5C9:2EEF6:349931:3DB2CE:687F7B3A) using electron-fetch with status 200.
+2025-07-22 06:51:21.469 [info] Refetch model metadata: Succeeded in 294ms 2a5702ae-2b93-43bb-88d8-566e43e1032a (C5CA:11D71D:34C423:3DEEC6:687F7B3B) using node-http with status 200.
+2025-07-22 06:51:42.791 [info] message 0 returned. finish reason: [stop]
+2025-07-22 06:51:42.791 [info] request done: requestId: [99b69701-118f-476d-a9dd-c322e87a6cd1] model deployment ID: []
+2025-07-22 06:51:42.792 [info] ccreq:9a9a3cda.copilotmd | success | gpt-4o-mini | 355ms | [intentDetection]
+2025-07-22 06:51:44.031 [info] message 0 returned. finish reason: [stop]
+2025-07-22 06:51:44.031 [info] request done: requestId: [cbbcb68e-0b97-409f-977c-fe6653b43f24] model deployment ID: []
+2025-07-22 06:51:44.032 [info] ccreq:6e84c2bb.copilotmd | success | gpt-4.1 | 1227ms | [panel/unknown]
+2025-07-22 06:53:06.947 [info] message 0 returned. finish reason: [stop]
+2025-07-22 06:53:06.947 [info] request done: requestId: [82197930-cc0e-40d8-aea7-3c96d5d9523a] model deployment ID: []
+2025-07-22 06:53:06.948 [info] ccreq:4289cf13.copilotmd | success | gpt-4o-mini | 754ms | [intentDetection]
+2025-07-22 06:53:17.001 [info] message 0 returned. finish reason: [stop]
+2025-07-22 06:53:17.001 [info] request done: requestId: [a0a6eb33-4b7b-4469-8d7e-cd4261b9166d] model deployment ID: []
+2025-07-22 06:53:17.008 [info] ccreq:6454412f.copilotmd | success | gpt-4.1 | 10047ms | [panel/unknown]
+2025-07-22 06:55:42.708 [info] message 0 returned. finish reason: [stop]
+2025-07-22 06:55:42.708 [info] request done: requestId: [889fcb37-cc82-4dec-b603-a555ffa3bfee] model deployment ID: []
+2025-07-22 06:55:42.710 [info] ccreq:68f10f98.copilotmd | success | gpt-4o-mini | 6010ms | [intentDetection]
+2025-07-22 06:55:47.464 [info] message 0 returned. finish reason: [stop]
+2025-07-22 06:55:47.464 [info] request done: requestId: [d8361bb9-4a1f-49ef-b9b6-9a6fd17aa2f6] model deployment ID: []
+2025-07-22 06:55:47.466 [info] ccreq:ba97fa7c.copilotmd | success | gpt-4.1 | 4733ms | [panel/unknown]
+2025-07-22 07:00:18.659 [info] message 0 returned. finish reason: [stop]
+2025-07-22 07:00:18.659 [info] request done: requestId: [48b80c4c-366d-49e6-af46-b1d651077ef6] model deployment ID: []
+2025-07-22 07:00:18.660 [info] ccreq:84b95af7.copilotmd | success | gpt-4o-mini | 4360ms | [intentDetection]
+2025-07-22 07:00:21.313 [info] message 0 returned. finish reason: [stop]
+2025-07-22 07:00:21.313 [info] request done: requestId: [932b3616-f784-4594-b7bb-2421e6c0e68b] model deployment ID: []
+2025-07-22 07:00:21.324 [info] ccreq:125fdaea.copilotmd | success | gpt-4.1 | 2640ms | [panel/unknown]
+2025-07-22 07:01:58.872 [info] Fetched model metadata in 160ms 093cf4d8-687e-40a6-b3d6-bb2705e61463
+2025-07-22 07:02:00.236 [info] message 0 returned. finish reason: [stop]
+2025-07-22 07:02:00.236 [info] request done: requestId: [f71d5833-a830-4733-af2e-1a931aceb4e3] model deployment ID: []
+2025-07-22 07:02:00.237 [info] ccreq:0256034d.copilotmd | success | gpt-4o-mini | 915ms | [intentDetection]
+2025-07-22 07:02:05.178 [info] message 0 returned. finish reason: [stop]
+2025-07-22 07:02:05.178 [info] request done: requestId: [b9dfed3b-2a79-4990-b1a8-917fe57e103b] model deployment ID: []
+2025-07-22 07:02:05.179 [info] ccreq:a87d4425.copilotmd | success | gpt-4.1 | 4924ms | [panel/unknown]
+2025-07-22 07:03:24.215 [info] message 0 returned. finish reason: [stop]
+2025-07-22 07:03:24.215 [info] request done: requestId: [007c02ea-b491-4dfa-ad54-e4d683d1383e] model deployment ID: []
+2025-07-22 07:03:24.216 [info] ccreq:78a5e9b5.copilotmd | success | gpt-4o-mini | 4756ms | [intentDetection]
+2025-07-22 07:03:28.374 [info] message 0 returned. finish reason: [stop]
+2025-07-22 07:03:28.374 [info] request done: requestId: [592bb661-79df-4051-9e89-884135299e96] model deployment ID: []
+2025-07-22 07:03:28.379 [info] ccreq:19c4d86d.copilotmd | success | gpt-4.1 | 4142ms | [panel/unknown]
+2025-07-22 07:04:53.761 [info] message 0 returned. finish reason: [stop]
+2025-07-22 07:04:53.761 [info] request done: requestId: [91af9f62-c7df-4388-8e14-5c589977ce4e] model deployment ID: []
+2025-07-22 07:04:53.764 [info] ccreq:9c24efaa.copilotmd | success | gpt-4o-mini | 3716ms | [intentDetection]
+2025-07-22 07:04:58.121 [info] message 0 returned. finish reason: [stop]
+2025-07-22 07:04:58.121 [info] request done: requestId: [67c709d8-adea-479b-a2d3-ff6a23e4b60c] model deployment ID: []
+2025-07-22 07:04:58.122 [info] ccreq:d4f0c684.copilotmd | success | gpt-4.1 | 4331ms | [panel/unknown]
+2025-07-22 07:05:24.180 [info] message 0 returned. finish reason: [stop]
+2025-07-22 07:05:24.180 [info] request done: requestId: [102b66a4-989d-45ed-b715-df8f3fe15013] model deployment ID: []
+2025-07-22 07:05:24.182 [info] ccreq:85bfc47d.copilotmd | success | gpt-4o-mini | 5544ms | [intentDetection]
+2025-07-22 07:05:27.119 [info] message 0 returned. finish reason: [stop]
+2025-07-22 07:05:27.119 [info] request done: requestId: [990d80de-2552-482a-aab7-83a1b21cb30d] model deployment ID: []
+2025-07-22 07:05:27.122 [info] ccreq:491f4197.copilotmd | success | gpt-4.1 | 2900ms | [panel/unknown]
+2025-07-22 07:07:14.203 [info] message 0 returned. finish reason: [stop]
+2025-07-22 07:07:14.203 [info] request done: requestId: [38c856c8-2fdf-4e59-84a1-0d1159240441] model deployment ID: []
+2025-07-22 07:07:14.204 [info] ccreq:55a6924f.copilotmd | success | gpt-4o-mini | 2443ms | [intentDetection]
+2025-07-22 07:07:20.847 [info] message 0 returned. finish reason: [stop]
+2025-07-22 07:07:20.847 [info] request done: requestId: [585ed18b-f5f4-4a44-a860-d413d67bea95] model deployment ID: []
+2025-07-22 07:07:20.849 [info] ccreq:cd903860.copilotmd | success | gpt-4.1 | 6566ms | [panel/unknown]
+2025-07-22 07:08:59.046 [info] message 0 returned. finish reason: [stop]
+2025-07-22 07:08:59.046 [info] request done: requestId: [b4659775-c921-41c7-8252-654690e9bd78] model deployment ID: []
+2025-07-22 07:08:59.047 [info] ccreq:65579a66.copilotmd | success | gpt-4o-mini | 1523ms | [intentDetection]
+2025-07-22 07:09:03.100 [info] message 0 returned. finish reason: [stop]
+2025-07-22 07:09:03.100 [info] request done: requestId: [09fe4f98-ef18-400f-8637-44018c77af1c] model deployment ID: []
+2025-07-22 07:09:03.101 [info] ccreq:c7fc0bb6.copilotmd | success | gpt-4.1 | 4023ms | [panel/unknown]
+2025-07-22 07:09:33.481 [info] message 0 returned. finish reason: [stop]
+2025-07-22 07:09:33.481 [info] request done: requestId: [e9db7338-1c05-4e2e-a409-fffc88cad629] model deployment ID: []
+2025-07-22 07:09:33.482 [info] ccreq:b72d414e.copilotmd | success | gpt-4o-mini | 6524ms | [intentDetection]
+2025-07-22 07:09:41.123 [info] message 0 returned. finish reason: [stop]
+2025-07-22 07:09:41.123 [info] request done: requestId: [5f531ee7-0882-44d1-8d1f-688b78b6dda7] model deployment ID: []
+2025-07-22 07:09:41.124 [info] ccreq:55129198.copilotmd | success | gpt-4.1 | 7602ms | [panel/unknown]
+2025-07-22 07:10:04.984 [info] message 0 returned. finish reason: [stop]
+2025-07-22 07:10:04.984 [info] request done: requestId: [1c50952f-6e0a-4699-b620-b71f2179d086] model deployment ID: []
+2025-07-22 07:10:04.985 [info] ccreq:9cbc9e2c.copilotmd | success | gpt-4o-mini | 1458ms | [intentDetection]
+2025-07-22 07:10:06.692 [info] message 0 returned. finish reason: [stop]
+2025-07-22 07:10:06.692 [info] request done: requestId: [a0617242-7a66-41d7-9963-e6a86b377cca] model deployment ID: []
+2025-07-22 07:10:06.693 [info] ccreq:c9348bc6.copilotmd | success | gpt-4.1 | 1675ms | [panel/unknown]
+2025-07-22 07:10:15.726 [info] message 0 returned. finish reason: [stop]
+2025-07-22 07:10:15.726 [info] request done: requestId: [c32c5890-01aa-4aab-b753-578306791ca5] model deployment ID: []
+2025-07-22 07:10:15.728 [info] ccreq:9cfe7131.copilotmd | success | gpt-4o-mini | 2848ms | [intentDetection]
+2025-07-22 07:10:20.261 [info] message 0 returned. finish reason: [stop]
+2025-07-22 07:10:20.261 [info] request done: requestId: [a2e22ddf-9788-4125-b2db-a6f5035480ee] model deployment ID: []
+2025-07-22 07:10:20.264 [info] ccreq:9dae01af.copilotmd | success | gpt-4.1 | 4491ms | [panel/unknown]
+2025-07-22 07:10:49.251 [info] message 0 returned. finish reason: [stop]
+2025-07-22 07:10:49.251 [info] request done: requestId: [9f9fae90-476e-43d9-a7ca-66672c56b283] model deployment ID: []
+2025-07-22 07:10:49.253 [info] ccreq:05d74ade.copilotmd | success | gpt-4o-mini | 4155ms | [intentDetection]
+2025-07-22 07:10:54.715 [info] message 0 returned. finish reason: [stop]
+2025-07-22 07:10:54.715 [info] request done: requestId: [ced5fdb0-335d-40bf-8283-38c7b96ca7e8] model deployment ID: []
+2025-07-22 07:10:54.716 [info] ccreq:643d6001.copilotmd | success | gpt-4.1 | 4983ms | [panel/unknown]
+2025-07-22 07:12:44.419 [info] Logged in as CodeByJesus
+2025-07-22 07:12:45.185 [info] Got Copilot token for CodeByJesus
+2025-07-22 07:12:45.231 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-07-22 07:12:45.427 [info] Fetched model metadata in 1079ms 17171e6a-8a01-4dc6-92d7-ba71653d0443
+2025-07-22 07:12:45.719 [info] BYOK: Copilot Chat known models list fetched successfully.
+2025-07-22 07:12:49.234 [info] message 0 returned. finish reason: [stop]
+2025-07-22 07:12:49.234 [info] request done: requestId: [f063591d-7647-4e77-b915-ad437ab0cd07] model deployment ID: []
+2025-07-22 07:12:49.235 [info] ccreq:1bf16d1a.copilotmd | success | gpt-4o-mini | 3298ms | [intentDetection]
+2025-07-22 07:12:54.329 [info] message 0 returned. finish reason: [stop]
+2025-07-22 07:12:54.329 [info] request done: requestId: [5a5260f3-2a32-4fe8-9572-1e62687f9fea] model deployment ID: []
+2025-07-22 07:12:54.330 [info] ccreq:5b49d557.copilotmd | success | gpt-4.1 | 5041ms | [panel/unknown]
+2025-07-22 07:13:25.022 [info] message 0 returned. finish reason: [stop]
+2025-07-22 07:13:25.022 [info] request done: requestId: [45c81415-eb8e-4cf9-a30e-d1ef48cd1b01] model deployment ID: []
+2025-07-22 07:13:25.023 [info] ccreq:839438e9.copilotmd | success | gpt-4o-mini | 2504ms | [intentDetection]
+2025-07-22 07:13:26.893 [info] message 0 returned. finish reason: [stop]
+2025-07-22 07:13:26.893 [info] request done: requestId: [3afa9862-72be-4ddd-90cc-15acb58b1620] model deployment ID: []
+2025-07-22 07:13:26.894 [info] ccreq:a69062b0.copilotmd | success | gpt-4.1 | 1810ms | [panel/unknown]
+2025-07-22 07:15:20.650 [info] message 0 returned. finish reason: [stop]
+2025-07-22 07:15:20.650 [info] request done: requestId: [a9a430d0-e26e-4f09-aa9f-8d62869b77f1] model deployment ID: []
+2025-07-22 07:15:20.652 [info] ccreq:60be80f2.copilotmd | success | gpt-4o-mini | 8439ms | [intentDetection]
+2025-07-22 07:15:27.575 [info] message 0 returned. finish reason: [stop]
+2025-07-22 07:15:27.575 [info] request done: requestId: [10e9d4f5-8c65-4147-9c28-097e3cdf7cee] model deployment ID: []
+2025-07-22 07:15:27.576 [info] ccreq:5db215f1.copilotmd | success | gpt-4.1 | 6781ms | [panel/unknown]
+2025-07-22 07:16:19.009 [info] message 0 returned. finish reason: [stop]
+2025-07-22 07:16:19.010 [info] request done: requestId: [ac56eefc-db9f-4a33-b71c-5522cade2e26] model deployment ID: []
+2025-07-22 07:16:19.011 [info] ccreq:cb45363e.copilotmd | success | gpt-4o-mini | 10076ms | [intentDetection]
+2025-07-22 07:16:24.364 [info] message 0 returned. finish reason: [Iteration Done]
+2025-07-22 07:16:24.364 [info] request done: requestId: [db5d9000-f708-4db9-8467-15db8f90a4ad] model deployment ID: []
+2025-07-22 07:16:24.365 [info] ccreq:779bccd5.copilotmd | unknown | gpt-4.1 | 5276ms | [panel/unknown]
+2025-07-22 07:16:52.434 [info] message 0 returned. finish reason: [stop]
+2025-07-22 07:16:52.435 [info] request done: requestId: [2dfb8385-d61b-4cb8-8aa0-52bc55d48323] model deployment ID: []
+2025-07-22 07:16:52.436 [info] ccreq:8749608c.copilotmd | success | gpt-4o-mini | 9457ms | [intentDetection]
+2025-07-22 07:17:01.955 [info] message 0 returned. finish reason: [stop]
+2025-07-22 07:17:01.955 [info] request done: requestId: [457c9f96-1aab-479b-b4d4-48109e36672f] model deployment ID: []
+2025-07-22 07:17:01.957 [info] ccreq:e24e84b2.copilotmd | success | gpt-4.1 | 9477ms | [panel/unknown]
+2025-07-22 07:18:12.075 [info] message 0 returned. finish reason: [stop]
+2025-07-22 07:18:12.075 [info] request done: requestId: [9eb507d3-9866-4f64-8e91-db8bd4e60693] model deployment ID: []
+2025-07-22 07:18:12.076 [info] ccreq:244952f5.copilotmd | success | gpt-4o-mini | 6699ms | [intentDetection]
+2025-07-22 07:18:18.670 [info] message 0 returned. finish reason: [stop]
+2025-07-22 07:18:18.670 [info] request done: requestId: [ff13f20a-37d1-4cd7-97f5-88ff184761a9] model deployment ID: []
+2025-07-22 07:18:18.671 [info] ccreq:f123c827.copilotmd | success | gpt-4.1 | 6539ms | [panel/unknown]
+2025-07-22 07:19:50.355 [info] message 0 returned. finish reason: [stop]
+2025-07-22 07:19:50.355 [info] request done: requestId: [63b8d082-e72e-4a05-b857-8cd07038542d] model deployment ID: []
+2025-07-22 07:19:50.357 [info] ccreq:03342115.copilotmd | success | gpt-4o-mini | 7318ms | [intentDetection]
+2025-07-22 07:19:56.709 [info] message 0 returned. finish reason: [stop]
+2025-07-22 07:19:56.709 [info] request done: requestId: [1e51871d-edaa-455b-b548-ff669a4d37db] model deployment ID: []
+2025-07-22 07:19:56.710 [info] ccreq:b632c8e5.copilotmd | success | gpt-4.1 | 6293ms | [panel/unknown]
+2025-07-22 07:21:35.633 [info] message 0 returned. finish reason: [stop]
+2025-07-22 07:21:35.633 [info] request done: requestId: [166215ed-e79b-4d5f-941c-54224a88374d] model deployment ID: []
+2025-07-22 07:21:35.635 [info] ccreq:9ee2d436.copilotmd | success | gpt-4o-mini | 2849ms | [intentDetection]
+2025-07-22 07:21:41.396 [info] message 0 returned. finish reason: [stop]
+2025-07-22 07:21:41.396 [info] request done: requestId: [5967293f-8a72-4190-a967-348b66b32af5] model deployment ID: []
+2025-07-22 07:21:41.397 [info] ccreq:ace8871f.copilotmd | success | gpt-4.1 | 5706ms | [panel/unknown]
+2025-07-22 07:22:33.043 [info] message 0 returned. finish reason: [stop]
+2025-07-22 07:22:33.043 [info] request done: requestId: [79491a19-db5a-4a21-80c9-a8801122242b] model deployment ID: []
+2025-07-22 07:22:33.045 [info] ccreq:5239f95f.copilotmd | success | gpt-4o-mini | 3350ms | [intentDetection]
+2025-07-22 07:22:39.765 [info] message 0 returned. finish reason: [stop]
+2025-07-22 07:22:39.765 [info] request done: requestId: [5b91826a-1d96-4480-8151-a23fe18742bb] model deployment ID: []
+2025-07-22 07:22:39.767 [info] ccreq:b0ad4c8d.copilotmd | success | gpt-4.1 | 6661ms | [panel/unknown]
+2025-07-22 07:23:43.741 [info] Fetched model metadata in 454ms 31a46034-5a68-4ee3-8204-8415bc7b9e40
+2025-07-22 07:23:44.710 [info] message 0 returned. finish reason: [stop]
+2025-07-22 07:23:44.710 [info] request done: requestId: [7719de0a-414c-4d6a-9f0d-f2f085184b28] model deployment ID: []
+2025-07-22 07:23:44.711 [info] ccreq:d808a9b9.copilotmd | success | gpt-4o-mini | 347ms | [intentDetection]
+2025-07-22 07:23:53.497 [info] message 0 returned. finish reason: [stop]
+2025-07-22 07:23:53.497 [info] request done: requestId: [58731d53-eba2-4a9d-bc7f-42ddc0921d69] model deployment ID: []
+2025-07-22 07:23:53.498 [info] ccreq:fab9b902.copilotmd | success | gpt-4.1 | 8573ms | [panel/unknown]
+2025-07-22 07:24:27.218 [info] message 0 returned. finish reason: [stop]
+2025-07-22 07:24:27.218 [info] request done: requestId: [eb43b9ab-0b3c-4b71-97ab-6fc9349493a8] model deployment ID: []
+2025-07-22 07:24:27.219 [info] ccreq:25c8cdb7.copilotmd | success | gpt-4o-mini | 1840ms | [intentDetection]
+2025-07-22 07:24:30.284 [info] message 0 returned. finish reason: [stop]
+2025-07-22 07:24:30.285 [info] request done: requestId: [331d8299-0562-43a4-becf-c6301fe326d4] model deployment ID: []
+2025-07-22 07:24:30.286 [info] ccreq:ac34d50b.copilotmd | success | gpt-4.1 | 2994ms | [panel/unknown]
+2025-07-22 07:36:11.206 [info] Logged in as CodeByJesus
+2025-07-22 07:36:11.932 [info] Got Copilot token for CodeByJesus
+2025-07-22 07:36:11.965 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-07-22 07:36:12.054 [info] BYOK: Copilot Chat known models list fetched successfully.
+2025-07-22 07:36:12.300 [info] Fetched model metadata in 1174ms 626688a7-d96e-43e7-b3b0-25954709a0ea
+2025-07-22 07:36:14.052 [info] message 0 returned. finish reason: [stop]
+2025-07-22 07:36:14.052 [info] request done: requestId: [4830f4c3-2d5a-4240-850e-8d9d00262400] model deployment ID: []
+2025-07-22 07:36:14.053 [info] ccreq:ea480e8f.copilotmd | success | gpt-4o-mini | 1119ms | [intentDetection]
+2025-07-22 07:36:16.898 [info] message 0 returned. finish reason: [stop]
+2025-07-22 07:36:16.898 [info] request done: requestId: [62cf96bf-0004-4505-828d-03bc4179c792] model deployment ID: []
+2025-07-22 07:36:16.899 [info] ccreq:1a20870f.copilotmd | success | gpt-4.1 | 2781ms | [panel/unknown]
+2025-07-22 07:41:00.316 [info] message 0 returned. finish reason: [stop]
+2025-07-22 07:41:00.316 [info] request done: requestId: [5e760b92-fd18-4003-a077-59ef8928bbf2] model deployment ID: []
+2025-07-22 07:41:00.318 [info] ccreq:ff941ff0.copilotmd | success | gpt-4o-mini | 1297ms | [intentDetection]
+2025-07-22 07:41:03.121 [info] message 0 returned. finish reason: [stop]
+2025-07-22 07:41:03.121 [info] request done: requestId: [7ac099ed-639f-4178-af67-2d88656a7211] model deployment ID: []
+2025-07-22 07:41:03.122 [info] ccreq:603d0ed5.copilotmd | success | gpt-4.1 | 2671ms | [panel/unknown]
+2025-07-22 07:42:55.951 [info] message 0 returned. finish reason: [stop]
+2025-07-22 07:42:55.951 [info] request done: requestId: [c7adb6ea-9e57-459c-953e-294cecfca863] model deployment ID: []
+2025-07-22 07:42:55.952 [info] ccreq:f662e567.copilotmd | success | gpt-4o-mini | 2505ms | [intentDetection]
+2025-07-22 07:43:04.667 [info] message 0 returned. finish reason: [stop]
+2025-07-22 07:43:04.668 [info] request done: requestId: [95ab2e02-9c94-4afd-8c47-1c64b75f59b5] model deployment ID: []
+2025-07-22 07:43:04.668 [info] ccreq:a61b518e.copilotmd | success | gpt-4.1 | 8626ms | [panel/unknown]
+2025-07-22 07:47:58.569 [info] Fetched model metadata in 502ms 466a8c18-2e49-4c1f-b4a0-12cdc56abbf9
+2025-07-22 07:48:00.730 [info] message 0 returned. finish reason: [stop]
+2025-07-22 07:48:00.730 [info] request done: requestId: [a86921d1-d7a7-4d69-9e81-d88fb710f818] model deployment ID: []
+2025-07-22 07:48:00.731 [info] ccreq:023964d9.copilotmd | success | gpt-4o-mini | 1515ms | [intentDetection]
+2025-07-22 07:48:06.980 [info] message 0 returned. finish reason: [stop]
+2025-07-22 07:48:06.980 [info] request done: requestId: [7854580f-2e5b-4aee-8dd5-af6581f3aacf] model deployment ID: []
+2025-07-22 07:48:06.982 [info] ccreq:cdf81200.copilotmd | success | gpt-4.1 | 6158ms | [panel/unknown]
+2025-07-22 07:48:47.598 [info] message 0 returned. finish reason: [stop]
+2025-07-22 07:48:47.598 [info] request done: requestId: [9994866b-49de-43da-9901-03a8eddfb94c] model deployment ID: []
+2025-07-22 07:48:47.599 [info] ccreq:92d9e48e.copilotmd | success | gpt-4o-mini | 4574ms | [intentDetection]
+2025-07-22 07:48:51.791 [info] message 0 returned. finish reason: [stop]
+2025-07-22 07:48:51.791 [info] request done: requestId: [3455169f-af3a-4deb-a0f9-c44174129e4a] model deployment ID: []
+2025-07-22 07:48:51.792 [info] ccreq:f78f1c54.copilotmd | success | gpt-4.1 | 4103ms | [panel/unknown]
+2025-07-22 07:49:35.548 [info] message 0 returned. finish reason: [stop]
+2025-07-22 07:49:35.548 [info] request done: requestId: [cea16db9-d15a-44a5-8577-080b80c33e94] model deployment ID: []
+2025-07-22 07:49:35.549 [info] ccreq:5bb1777b.copilotmd | success | gpt-4o-mini | 1026ms | [intentDetection]
+2025-07-22 07:49:37.583 [info] message 0 returned. finish reason: [stop]
+2025-07-22 07:49:37.583 [info] request done: requestId: [15939807-a4bf-45d4-9a8f-04064dfd3928] model deployment ID: []
+2025-07-22 07:49:37.584 [info] ccreq:858389c8.copilotmd | success | gpt-4.1 | 1939ms | [panel/unknown]
+2025-07-22 07:50:43.419 [info] message 0 returned. finish reason: [stop]
+2025-07-22 07:50:43.419 [info] request done: requestId: [2d72f6c3-cfc6-49a0-8c84-ba07a5e87ad7] model deployment ID: []
+2025-07-22 07:50:43.421 [info] ccreq:b1138730.copilotmd | success | gpt-4o-mini | 1894ms | [intentDetection]
+2025-07-22 07:50:48.580 [info] message 0 returned. finish reason: [stop]
+2025-07-22 07:50:48.580 [info] request done: requestId: [37ce7b3f-66f8-41a5-8108-9d993ad09078] model deployment ID: []
+2025-07-22 07:50:48.585 [info] ccreq:af24a004.copilotmd | success | gpt-4.1 | 5076ms | [panel/unknown]
+2025-07-22 07:52:08.891 [info] message 0 returned. finish reason: [stop]
+2025-07-22 07:52:08.891 [info] request done: requestId: [e6f682ec-34e9-4bc9-81d8-165d94ec3b0f] model deployment ID: []
+2025-07-22 07:52:08.892 [info] ccreq:327b7839.copilotmd | success | gpt-4o-mini | 1864ms | [intentDetection]
+2025-07-22 07:52:12.587 [info] message 0 returned. finish reason: [stop]
+2025-07-22 07:52:12.587 [info] request done: requestId: [ba4e8faa-7d28-43b4-b4ce-452cda8c840a] model deployment ID: []
+2025-07-22 07:52:12.588 [info] ccreq:5a9a4b3c.copilotmd | success | gpt-4.1 | 3585ms | [panel/unknown]
+2025-07-22 07:53:10.567 [info] message 0 returned. finish reason: [stop]
+2025-07-22 07:53:10.567 [info] request done: requestId: [88639e61-2799-4593-9e7a-27ad19585cd7] model deployment ID: []
+2025-07-22 07:53:10.569 [info] ccreq:baa5231f.copilotmd | success | gpt-4o-mini | 7978ms | [intentDetection]
+2025-07-22 07:53:14.005 [info] message 0 returned. finish reason: [stop]
+2025-07-22 07:53:14.005 [info] request done: requestId: [714a33ad-ea56-4f5f-901f-8cb2dbb02487] model deployment ID: []
+2025-07-22 07:53:14.005 [info] ccreq:5d2a5db3.copilotmd | success | gpt-4.1 | 3338ms | [panel/unknown]
+2025-07-22 07:58:11.025 [info] Logged in as CodeByJesus
+2025-07-22 07:58:11.768 [info] Got Copilot token for CodeByJesus
+2025-07-22 07:58:11.801 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-07-22 07:58:12.120 [info] Fetched model metadata in 1158ms 7fd248bc-455b-4eb9-92cc-c285820d06c7
+2025-07-22 07:58:12.379 [info] BYOK: Copilot Chat known models list fetched successfully.
+2025-07-22 07:58:16.499 [info] message 0 returned. finish reason: [stop]
+2025-07-22 07:58:16.499 [info] request done: requestId: [803ff9e0-2724-4a86-a567-195f82c925b1] model deployment ID: []
+2025-07-22 07:58:16.499 [info] ccreq:be476f88.copilotmd | success | gpt-4o-mini | 3628ms | [intentDetection]
+2025-07-22 07:58:20.207 [info] message 0 returned. finish reason: [stop]
+2025-07-22 07:58:20.207 [info] request done: requestId: [01a13438-7bbc-4f70-8fe8-8b26d6e9d482] model deployment ID: []
+2025-07-22 07:58:20.208 [info] ccreq:02d1d90f.copilotmd | success | gpt-4.1 | 3624ms | [panel/unknown]
+2025-07-22 07:58:46.567 [info] message 0 returned. finish reason: [stop]
+2025-07-22 07:58:46.567 [info] request done: requestId: [42e86947-648d-44a5-8fed-c17923555c6f] model deployment ID: []
+2025-07-22 07:58:46.568 [info] ccreq:9e16500e.copilotmd | success | gpt-4o-mini | 2800ms | [intentDetection]
+2025-07-22 07:58:49.926 [info] message 0 returned. finish reason: [stop]
+2025-07-22 07:58:49.926 [info] request done: requestId: [99e5ec80-d3de-4e43-b5cb-0eea9d4209f1] model deployment ID: []
+2025-07-22 07:58:49.927 [info] ccreq:c0e297f1.copilotmd | success | gpt-4.1 | 3254ms | [panel/unknown]
+2025-07-22 08:01:00.116 [info] message 0 returned. finish reason: [stop]
+2025-07-22 08:01:00.116 [info] request done: requestId: [cdb65cd8-5712-4f25-b3e5-7a16e8fd4a32] model deployment ID: []
+2025-07-22 08:01:00.117 [info] ccreq:8690126e.copilotmd | success | gpt-4o-mini | 5525ms | [intentDetection]
+2025-07-22 08:01:04.544 [info] message 0 returned. finish reason: [stop]
+2025-07-22 08:01:04.544 [info] request done: requestId: [da6ab444-4d31-479a-9bf8-c4e3f47b08cf] model deployment ID: []
+2025-07-22 08:01:04.545 [info] ccreq:c2ac184d.copilotmd | success | gpt-4.1 | 4347ms | [panel/unknown]
+2025-07-22 08:02:18.781 [info] message 0 returned. finish reason: [stop]
+2025-07-22 08:02:18.781 [info] request done: requestId: [907749fd-6db2-4fbd-93b6-1301736b433c] model deployment ID: []
+2025-07-22 08:02:18.782 [info] ccreq:ec51e60b.copilotmd | success | gpt-4o-mini | 4651ms | [intentDetection]
+2025-07-22 08:02:24.537 [info] message 0 returned. finish reason: [stop]
+2025-07-22 08:02:24.537 [info] request done: requestId: [a09a4644-1c2e-4e9a-82df-4614c9ddfadd] model deployment ID: []
+2025-07-22 08:02:24.538 [info] ccreq:f1f8e690.copilotmd | success | gpt-4.1 | 5687ms | [panel/unknown]
+2025-07-22 08:03:01.055 [info] message 0 returned. finish reason: [stop]
+2025-07-22 08:03:01.055 [info] request done: requestId: [d4154274-6e49-467c-80e5-4a3e93a5b09a] model deployment ID: []
+2025-07-22 08:03:01.056 [info] ccreq:87e05279.copilotmd | success | gpt-4o-mini | 2297ms | [intentDetection]
+2025-07-22 08:03:06.994 [info] message 0 returned. finish reason: [stop]
+2025-07-22 08:03:06.994 [info] request done: requestId: [5077c91b-2b3f-4366-b57b-887b4f865870] model deployment ID: []
+2025-07-22 08:03:06.995 [info] ccreq:af7b4388.copilotmd | success | gpt-4.1 | 5765ms | [panel/unknown]
+2025-07-22 08:12:19.708 [info] Fetched model metadata in 459ms 90a4d706-4333-4a20-9dc9-806a65578d1f
+2025-07-22 08:12:22.323 [info] message 0 returned. finish reason: [stop]
+2025-07-22 08:12:22.323 [info] request done: requestId: [43a95879-c9bf-4266-ad42-c59ade950335] model deployment ID: []
+2025-07-22 08:12:22.325 [info] ccreq:0c711e7c.copilotmd | success | gpt-4o-mini | 1808ms | [intentDetection]
+2025-07-22 08:12:28.451 [info] message 0 returned. finish reason: [stop]
+2025-07-22 08:12:28.451 [info] request done: requestId: [9c675649-2de3-4691-9c88-7e3483e93624] model deployment ID: []
+2025-07-22 08:12:28.452 [info] ccreq:79aae252.copilotmd | success | gpt-4.1 | 6045ms | [panel/unknown]
+2025-07-22 08:13:15.046 [info] message 0 returned. finish reason: [stop]
+2025-07-22 08:13:15.046 [info] request done: requestId: [f8411a13-c099-4c0e-8c8c-4fb5f82158b7] model deployment ID: []
+2025-07-22 08:13:15.048 [info] ccreq:759f9726.copilotmd | success | gpt-4o-mini | 1327ms | [intentDetection]
+2025-07-22 08:13:17.151 [info] message 0 returned. finish reason: [stop]
+2025-07-22 08:13:17.151 [info] request done: requestId: [ecebb048-338e-4386-bf01-3d42454a6297] model deployment ID: []
+2025-07-22 08:13:17.152 [info] ccreq:8d5dc4aa.copilotmd | success | gpt-4.1 | 2025ms | [panel/unknown]
+2025-07-22 08:14:04.389 [info] message 0 returned. finish reason: [stop]
+2025-07-22 08:14:04.389 [info] request done: requestId: [7c41c599-d8f6-4f72-8894-3d35c806d6a9] model deployment ID: []
+2025-07-22 08:14:04.389 [info] ccreq:def306d2.copilotmd | success | gpt-4o-mini | 2201ms | [intentDetection]
+2025-07-22 08:14:06.391 [info] message 0 returned. finish reason: [stop]
+2025-07-22 08:14:06.391 [info] request done: requestId: [4ecaab01-162a-471b-ad3b-8def9c0e48c1] model deployment ID: []
+2025-07-22 08:14:06.392 [info] ccreq:1d2d06d4.copilotmd | success | gpt-4.1 | 1917ms | [panel/unknown]
+2025-07-22 08:15:23.465 [info] message 0 returned. finish reason: [stop]
+2025-07-22 08:15:23.465 [info] request done: requestId: [e699338b-8a06-4f1f-b01a-ee62f82b1beb] model deployment ID: []
+2025-07-22 08:15:23.466 [info] ccreq:5bf98bc5.copilotmd | success | gpt-4o-mini | 1905ms | [intentDetection]
+2025-07-22 08:15:27.810 [info] message 0 returned. finish reason: [stop]
+2025-07-22 08:15:27.810 [info] request done: requestId: [843c9e77-5129-48f7-98e2-a2ddd87c30a5] model deployment ID: []
+2025-07-22 08:15:27.811 [info] ccreq:3cc4fd33.copilotmd | success | gpt-4.1 | 4270ms | [panel/unknown]
+2025-07-22 08:15:59.651 [info] message 0 returned. finish reason: [stop]
+2025-07-22 08:15:59.651 [info] request done: requestId: [10035c2f-0c4c-441c-9081-9f2a973dba9b] model deployment ID: []
+2025-07-22 08:15:59.652 [info] ccreq:7aab69fe.copilotmd | success | gpt-4o-mini | 5496ms | [intentDetection]
+2025-07-22 08:16:05.853 [info] message 0 returned. finish reason: [stop]
+2025-07-22 08:16:05.853 [info] request done: requestId: [8253038a-8d8b-4e8e-b5ca-eecb60e40fd7] model deployment ID: []
+2025-07-22 08:16:05.854 [info] ccreq:41c9c6a5.copilotmd | success | gpt-4.1 | 6106ms | [panel/unknown]
+2025-07-22 08:17:41.790 [info] message 0 returned. finish reason: [stop]
+2025-07-22 08:17:41.790 [info] request done: requestId: [b0c2bc8e-81f3-4938-b336-57ece9c2639a] model deployment ID: []
+2025-07-22 08:17:41.790 [info] ccreq:a50b44df.copilotmd | success | gpt-4o-mini | 1586ms | [intentDetection]
+2025-07-22 08:17:45.923 [info] message 0 returned. finish reason: [stop]
+2025-07-22 08:17:45.923 [info] request done: requestId: [351701eb-6cc1-4b03-9e16-4bd5ab96cb1b] model deployment ID: []
+2025-07-22 08:17:45.924 [info] ccreq:ddbd15f3.copilotmd | success | gpt-4.1 | 4038ms | [panel/unknown]
+2025-07-22 08:19:13.009 [info] message 0 returned. finish reason: [stop]
+2025-07-22 08:19:13.009 [info] request done: requestId: [047f79d4-6e62-4465-b2fb-5ee8917c3830] model deployment ID: []
+2025-07-22 08:19:13.010 [info] ccreq:7646e95a.copilotmd | success | gpt-4o-mini | 2381ms | [intentDetection]
+2025-07-22 08:19:13.145 [info] Logged in as CodeByJesus
+2025-07-22 08:19:13.953 [info] Got Copilot token for CodeByJesus
+2025-07-22 08:19:13.989 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-07-22 08:19:14.751 [info] BYOK: Copilot Chat known models list fetched successfully.
+2025-07-22 08:19:21.277 [info] message 0 returned. finish reason: [stop]
+2025-07-22 08:19:21.277 [info] request done: requestId: [80356d97-9517-4d82-933d-09751976e060] model deployment ID: []
+2025-07-22 08:19:21.278 [info] ccreq:2bd131c2.copilotmd | success | gpt-4.1 | 8167ms | [panel/unknown]
+2025-07-22 08:21:52.784 [info] message 0 returned. finish reason: [stop]
+2025-07-22 08:21:52.784 [info] request done: requestId: [8525b33d-c008-42d7-9018-0dd57c5dc74a] model deployment ID: []
+2025-07-22 08:21:52.785 [info] ccreq:dc6c7ba8.copilotmd | success | gpt-4o-mini | 4084ms | [intentDetection]
+2025-07-22 08:22:06.290 [info] message 0 returned. finish reason: [stop]
+2025-07-22 08:22:06.290 [info] request done: requestId: [5b2349f5-42a6-422b-b56e-51f3f0bbcc87] model deployment ID: []
+2025-07-22 08:22:06.292 [info] ccreq:bbbfc55e.copilotmd | success | gpt-4.1 | 13406ms | [panel/unknown]
+2025-07-22 08:24:03.627 [info] Fetched model metadata in 367ms f768d058-21fc-468c-a4c6-1b1c467f97d6
+2025-07-22 08:24:06.640 [info] message 0 returned. finish reason: [stop]
+2025-07-22 08:24:06.640 [info] request done: requestId: [8240c241-7f90-4fb0-a05b-713a7c21365a] model deployment ID: []
+2025-07-22 08:24:06.642 [info] ccreq:f59173e9.copilotmd | success | gpt-4o-mini | 2380ms | [intentDetection]
+2025-07-22 08:24:11.272 [info] message 0 returned. finish reason: [stop]
+2025-07-22 08:24:11.272 [info] request done: requestId: [55c614f0-9c0e-4054-9700-819763b0ce3b] model deployment ID: []
+2025-07-22 08:24:11.273 [info] ccreq:a887fe6f.copilotmd | success | gpt-4.1 | 4522ms | [panel/unknown]
+2025-07-22 08:25:12.563 [info] message 0 returned. finish reason: [stop]
+2025-07-22 08:25:12.563 [info] request done: requestId: [63e398fa-beb6-480b-8338-5c1cf8baf969] model deployment ID: []
+2025-07-22 08:25:12.565 [info] ccreq:757e66e6.copilotmd | success | gpt-4o-mini | 5050ms | [intentDetection]
+2025-07-22 08:25:19.079 [info] message 0 returned. finish reason: [stop]
+2025-07-22 08:25:19.079 [info] request done: requestId: [bfa41aca-03fc-4110-a123-5d938bc4324a] model deployment ID: []
+2025-07-22 08:25:19.081 [info] ccreq:ffa65ff6.copilotmd | success | gpt-4.1 | 6351ms | [panel/unknown]
+2025-07-22 08:26:53.687 [info] message 0 returned. finish reason: [stop]
+2025-07-22 08:26:53.687 [info] request done: requestId: [1517af21-8ed8-48f9-bd12-26b2dc769c17] model deployment ID: []
+2025-07-22 08:26:53.688 [info] ccreq:e0dc91ce.copilotmd | success | gpt-4o-mini | 1626ms | [intentDetection]
+2025-07-22 08:27:02.421 [info] message 0 returned. finish reason: [stop]
+2025-07-22 08:27:02.421 [info] request done: requestId: [5b401337-f892-4de4-98c5-86b11b02b9b6] model deployment ID: []
+2025-07-22 08:27:02.423 [info] ccreq:559eda08.copilotmd | success | gpt-4.1 | 8609ms | [panel/unknown]
+2025-07-22 08:28:05.763 [info] Request ID for failed request: 4cc8d31e-6b38-4f7f-a7ef-4647fdcb1981
+2025-07-22 08:28:05.775 [info] ccreq:e6d2c917.copilotmd | quotaExceeded | gpt-4o-mini | 213ms | [intentDetection]
+2025-07-22 08:28:06.124 [info] Logged in as CodeByJesus
+2025-07-22 08:28:06.914 [info] Got Copilot token for CodeByJesus
+2025-07-22 08:28:06.925 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-07-22 08:28:06.994 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-07-22 08:28:07.081 [info] Request ID for failed request: 50b427e1-78d6-4c52-a670-3d9702b45d7f
+2025-07-22 08:28:07.092 [info] ccreq:4a618688.copilotmd | quotaExceeded | gpt-4.1 | 1069ms | [panel/unknown]
+2025-07-22 08:28:07.161 [info] Logged in as CodeByJesus
+2025-07-22 08:28:07.657 [info] BYOK: Copilot Chat known models list fetched successfully.
+2025-07-22 08:28:07.661 [info] BYOK: Copilot Chat known models list fetched successfully.
+2025-07-22 08:28:07.728 [info] Got Copilot token for CodeByJesus
+2025-07-22 08:28:07.740 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-07-22 08:28:07.815 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-07-22 08:28:07.829 [info] BYOK: Copilot Chat known models list fetched successfully.
+2025-07-22 08:28:07.905 [info] BYOK: Copilot Chat known models list fetched successfully.
+2025-07-22 08:38:37.973 [info] TypeScript server plugin activated.
+2025-07-22 08:38:37.978 [info] Registered TypeScript context provider with Copilot inline completions.
+2025-07-22 08:41:22.393 [info] Fetched model metadata in 550ms 93055bf6-ff34-4af1-bb60-8e00500229ba
+2025-07-22 08:41:23.430 [info] Request ID for failed request: 6fcfa8e5-bb31-4960-9c51-f1e7576666e5
+2025-07-22 08:41:23.443 [info] ccreq:a71bd6fa.copilotmd | quotaExceeded | gpt-4o-mini | 213ms | [intentDetection]
+2025-07-22 08:41:23.690 [info] Logged in as CodeByJesus
+2025-07-22 08:41:24.518 [info] Got Copilot token for CodeByJesus
+2025-07-22 08:41:24.526 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-07-22 08:41:24.573 [info] BYOK: Copilot Chat known models list fetched successfully.
+2025-07-22 08:41:24.589 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-07-22 08:41:24.623 [info] BYOK: Copilot Chat known models list fetched successfully.
+2025-07-22 08:41:24.726 [info] Request ID for failed request: 9d5240fd-a24e-456e-af0c-149b54fd8fd8
+2025-07-22 08:41:24.736 [info] ccreq:4199a884.copilotmd | quotaExceeded | gpt-4.1 | 1094ms | [panel/unknown]
+2025-07-22 08:41:24.797 [info] Logged in as CodeByJesus
+2025-07-22 08:41:25.364 [info] Got Copilot token for CodeByJesus
+2025-07-22 08:41:25.374 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-07-22 08:41:25.420 [info] BYOK: Copilot Chat known models list fetched successfully.
+2025-07-22 08:41:25.473 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-07-22 08:41:25.504 [info] BYOK: Copilot Chat known models list fetched successfully.
+2025-07-22 08:56:25.988 [info] Fetched model metadata in 490ms bdb24563-b1df-445f-a7d3-8c69027cf095
+2025-07-22 09:11:26.079 [info] Logged in as CodeByJesus
+2025-07-22 09:11:26.917 [info] Got Copilot token for CodeByJesus
+2025-07-22 09:11:26.993 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-07-22 09:11:27.107 [info] BYOK: Copilot Chat known models list fetched successfully.
+2025-07-22 09:11:27.393 [info] Fetched model metadata in 461ms cc2386f0-03c8-4f0b-9cca-c56dc9f19467
