@@ -17,7 +17,6 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 from django.conf.urls.i18n import i18n_patterns
-from django.views.generic import RedirectView
 
 # URLs que serán internacionalizadas (tendrán prefijo de idioma)
 i18n_urlpatterns = i18n_patterns(
@@ -29,8 +28,3 @@ i18n_urlpatterns = i18n_patterns(
 urlpatterns = [
     path('i18n/', include('django.conf.urls.i18n')), # Para el selector de idioma
 ] + i18n_urlpatterns # Añade las URLs internacionalizadas al final
-
-# Redirige la raíz a /es/ (debe ir al final de urlpatterns)
-urlpatterns += [
-    path('', RedirectView.as_view(url='/es/', permanent=False)),
-]
