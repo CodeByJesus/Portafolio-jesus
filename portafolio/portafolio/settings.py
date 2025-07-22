@@ -135,3 +135,6 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # Email settings for contact form (prints to console)
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+
+import django_heroku
+django_heroku.settings(locals())

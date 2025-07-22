@@ -58,3 +58,92 @@ Traceback (most recent call last):
   File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
   File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
 ModuleNotFoundError: No module named 'web.urls'
+/home/jesus/portafolio/portafolio/settings.py changed, reloading.
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/home/jesus/portafolio/venv/lib/python3.12/site-packages/django/core/management/base.py", line 416, in run_from_argv
+    self.execute(*args, **cmd_options)
+  File "/home/jesus/portafolio/venv/lib/python3.12/site-packages/django/core/management/commands/runserver.py", line 69, in execute
+    super().execute(*args, **options)
+  File "/home/jesus/portafolio/venv/lib/python3.12/site-packages/django/core/management/base.py", line 460, in execute
+    output = self.handle(*args, **options)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jesus/portafolio/venv/lib/python3.12/site-packages/django/core/management/commands/runserver.py", line 80, in handle
+    if not settings.DEBUG and not settings.ALLOWED_HOSTS:
+           ^^^^^^^^^^^^^^
+  File "/home/jesus/portafolio/venv/lib/python3.12/site-packages/django/conf/__init__.py", line 81, in __getattr__
+    self._setup(name)
+  File "/home/jesus/portafolio/venv/lib/python3.12/site-packages/django/conf/__init__.py", line 68, in _setup
+    self._wrapped = Settings(settings_module)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jesus/portafolio/venv/lib/python3.12/site-packages/django/conf/__init__.py", line 166, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/jesus/portafolio/portafolio/settings.py", line 139, in <module>
+    import django_heroku
+ModuleNotFoundError: No module named 'django_heroku'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jesus/portafolio/manage.py", line 22, in <module>
+    main()
+  File "/home/jesus/portafolio/manage.py", line 18, in main
+    execute_from_command_line(sys.argv)
+  File "/home/jesus/portafolio/venv/lib/python3.12/site-packages/django/core/management/__init__.py", line 442, in execute_from_command_line
+    utility.execute()
+  File "/home/jesus/portafolio/venv/lib/python3.12/site-packages/django/core/management/__init__.py", line 436, in execute
+    self.fetch_command(subcommand).run_from_argv(self.argv)
+  File "/home/jesus/portafolio/venv/lib/python3.12/site-packages/django/core/management/base.py", line 429, in run_from_argv
+    connections.close_all()
+  File "/home/jesus/portafolio/venv/lib/python3.12/site-packages/django/utils/connection.py", line 84, in close_all
+    for conn in self.all(initialized_only=True):
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jesus/portafolio/venv/lib/python3.12/site-packages/django/utils/connection.py", line 76, in all
+    return [
+           ^
+  File "/home/jesus/portafolio/venv/lib/python3.12/site-packages/django/utils/connection.py", line 73, in __iter__
+    return iter(self.settings)
+                ^^^^^^^^^^^^^
+  File "/home/jesus/portafolio/venv/lib/python3.12/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/home/jesus/portafolio/venv/lib/python3.12/site-packages/django/utils/connection.py", line 45, in settings
+    self._settings = self.configure_settings(self._settings)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jesus/portafolio/venv/lib/python3.12/site-packages/django/db/utils.py", line 148, in configure_settings
+    databases = super().configure_settings(databases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jesus/portafolio/venv/lib/python3.12/site-packages/django/utils/connection.py", line 50, in configure_settings
+    settings = getattr(django_settings, self.settings_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jesus/portafolio/venv/lib/python3.12/site-packages/django/conf/__init__.py", line 81, in __getattr__
+    self._setup(name)
+  File "/home/jesus/portafolio/venv/lib/python3.12/site-packages/django/conf/__init__.py", line 68, in _setup
+    self._wrapped = Settings(settings_module)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jesus/portafolio/venv/lib/python3.12/site-packages/django/conf/__init__.py", line 166, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/jesus/portafolio/portafolio/settings.py", line 139, in <module>
+    import django_heroku
+ModuleNotFoundError: No module named 'django_heroku'
