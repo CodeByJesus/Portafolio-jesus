@@ -11,7 +11,7 @@
   <h2 class="nombre-animado nombre-mediano">Martinez</h2>
   <p class="fs-5 mb-4">{% trans "Desarrollador Junior con especialidad en Backend y Analítica de Datos" %}</p>
   <div class="d-flex justify-content-center gap-2">
-      <a href="{% static 'cv/CV-jesus_martinez.pdf' %}" class="btn btn-primary" download>
+      <a href="{% static 'cv/CV-jesus_martinez' %}{% if LANGUAGE_CODE == 'en' %}-EN{% endif %}.pdf" class="btn btn-primary" download>
           <i class="bi bi-download me-2"></i>{% trans "Descargar CV" %}
       </a>
       <a href="#proyectos" class="btn btn-outline-light">
