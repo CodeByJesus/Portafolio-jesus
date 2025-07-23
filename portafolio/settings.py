@@ -14,35 +14,23 @@ import os
 import dj_database_url
 from pathlib import Path
 
-# Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
+SECRET_KEY = os.environ.get('SECRET_KEY', 'django-insecure-0)6(#h&c(b=rn_a53f*5dh=yh8$brp(d1i$fiz#d6__n%rgyo)
 
-# Quick-start development settings - unsuitable for production
-# See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
-
-# SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.environ.get('SECRET_KEY', 'django-insecure-0)6(#h&c(b=rn_a53f*5dh=yh8$brp(d1i$fiz#d6__n%rgyo$')
-
-# SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.environ.get('DEBUG', 'False') == 'True'
 
 if DEBUG:
-    ALLOWED_HOSTS = ['*'] # Allow all hosts in debug mode for easier local development
+    ALLOWED_HOSTS = ['*']
 else:
     ALLOWED_HOSTS = []
-    # Add Render's external hostname
     RENDER_EXTERNAL_HOSTNAME = os.environ.get('RENDER_EXTERNAL_HOSTNAME')
     if RENDER_EXTERNAL_HOSTNAME:
         ALLOWED_HOSTS.append(RENDER_EXTERNAL_HOSTNAME)
 
-    # Add any other hosts specified in the ALLOWED_HOSTS environment variable
-    # This allows for custom domains in addition to Render's default.
     custom_allowed_hosts = os.environ.get('ALLOWED_HOSTS', '')
     if custom_allowed_hosts:
         ALLOWED_HOSTS.extend(custom_allowed_hosts.split(','))
-
-# Application definition
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -87,20 +75,12 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'portafolio.wsgi.application'
 
-
-# Database
-# https://docs.djangoproject.com/en/4.2/ref/settings/#databases
-
 DATABASES = {
     'default': dj_database_url.config(
         default=os.environ.get('DATABASE_URL', 'sqlite:///db.sqlite3'),
         conn_max_age=600
     )
 }
-
-
-# Password validation
-# https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
 
 AUTH_PASSWORD_VALIDATORS = [
     {
@@ -116,10 +96,6 @@ AUTH_PASSWORD_VALIDATORS = [
         'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
     },
 ]
-
-
-# Internationalization
-# https://docs.djangoproject.com/en/4.2/topics/i18n/
 
 LANGUAGE_CODE = 'es'
 
@@ -138,19 +114,11 @@ LOCALE_PATHS = [
     BASE_DIR / 'locale',
 ]
 
-# Static files (CSS, JavaScript, Images)
-# https://docs.djangoproject.com/en/4.2/howto/static-files/
-
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [BASE_DIR / 'web/static']
 STATIC_ROOT = BASE_DIR / 'staticfiles'
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
-
-# Default primary key field type
-# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
-
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-# Email settings for contact form (prints to console)
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
