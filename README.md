@@ -1,48 +1,45 @@
 # Portafolio Personal de Jesus Martinez
 
-¡Bienvenido al repositorio de mi portafolio personal! Este proyecto es una aplicación web desarrollada con Django que muestra mis habilidades, proyectos recientes y experiencia en desarrollo de software.
+¡Bienvenido al repositorio de mi portafolio personal! Este proyecto es el **backend** de una aplicación web desarrollada con Django que gestiona la información de mis habilidades, proyectos y experiencia.
 
-## 🚀 Características
+**Nota Importante sobre el Despliegue:**
+Debido a las limitaciones y costos asociados con el despliegue continuo de aplicaciones full-stack (backend + frontend) en plataformas gratuitas como Render, Railway, etc., la versión pública de este portafolio ahora utiliza una arquitectura separada:
 
-*   **Página de Inicio:** Presentación personal y resumen de habilidades.
-*   **Sección "Sobre Mí":** Detalles sobre mi trayectoria y pasión por el desarrollo.
-*   **Conocimientos:** Listado de lenguajes, frameworks, bases de datos y herramientas que domino.
-*   **Proyectos Recientes:** Una galería de mis trabajos más destacados.
-*   **Contacto:** Información para ponerse en contacto conmigo a través de correo electrónico y redes sociales.
-*   **Internacionalización (i18n):** Soporte para múltiples idiomas (Español e Inglés).
-*   **Descarga de CV:** Opción para descargar mi currículum en el idioma seleccionado.
+*   **Frontend Estático:** El diseño visual y la interacción del usuario (HTML, CSS, JavaScript) se han desacoplado y se despliegan como un sitio estático en [Netlify](https://www.netlify.com/). Puedes ver el código fuente de este frontend estático aquí: [github.com/CodeByJesus/portafolio-estatico](https://github.com/CodeByJesus/portafolio-estatico)
+*   **Backend (este repositorio):** Este proyecto ahora sirve principalmente como el código fuente del backend. Su propósito es demostrar la implementación de un sistema de gestión de contenido con Django, y está diseñado para ser ejecutado localmente para fines de desarrollo y demostración.
 
-## 🛠️ Tecnologías Utilizadas
+## 🚀 Características (Backend)
+
+*   **Gestión de Contenido:** Permite administrar información sobre habilidades, secciones "Sobre Mí", y proyectos.
+*   **API REST:** Proporciona endpoints para acceder a los datos del portafolio.
+*   **Internacionalización (i18n):** Soporte para múltiples idiomas en el backend.
+*   **Panel de Administración:** Acceso a un panel de administración de Django para gestionar los datos.
+
+## 🛠️ Tecnologías Utilizadas (Backend)
 
 Este proyecto ha sido construido utilizando las siguientes tecnologías:
 
 **Backend & Framework:**
 *   **Python:** Lenguaje de programación principal.
 *   **Django:** Framework web de alto nivel para un desarrollo rápido y seguro.
-*   **Gunicorn:** Servidor WSGI utilizado en producción.
+*   **Django REST Framework:** Para la creación de APIs RESTful.
+*   **Gunicorn:** Servidor WSGI utilizado en producción (si se desplegara el backend).
 *   **psycopg2-binary:** Adaptador para la conexión con bases de datos PostgreSQL.
 *   **dj-database-url:** Para gestionar la configuración de la base de datos a través de URLs de entorno.
-
-**Frontend:**
-*   **HTML5:** Estructura del contenido web.
-*   **CSS3:** Estilos y diseño visual.
-*   **JavaScript:** Interactividad en el lado del cliente.
-*   **Bootstrap:** Framework CSS para un diseño responsivo y moderno.
-*   **Font Awesome & Bootstrap Icons:** Librerías de iconos.
+*   **django-environ:** Para la gestión de variables de entorno.
+*   **Whitenoise:** Para servir archivos estáticos de Django en producción (si se desplegara el backend).
 
 **Base de Datos:**
-*   **PostgreSQL:** Base de datos relacional utilizada en producción.
+*   **PostgreSQL:** Base de datos relacional utilizada en producción (si se desplegara el backend).
 *   **SQLite:** Base de datos ligera utilizada para desarrollo local.
 
-**Herramientas & Despliegue:**
+**Herramientas:**
 *   **Git:** Sistema de control de versiones.
 *   **GitHub:** Plataforma para el alojamiento del código fuente.
-*   **Render:** Plataforma de despliegue continuo para la aplicación web.
-*   **Whitenoise:** Para servir archivos estáticos de Django en producción.
 
-## ⚙️ Configuración y Ejecución Local
+## ⚙️ Configuración y Ejecución Local (Solo Backend)
 
-Sigue estos pasos para configurar y ejecutar el proyecto en tu máquina local:
+Sigue estos pasos para configurar y ejecutar el **backend** de este proyecto en tu máquina local. Esto te permitirá interactuar con el panel de administración de Django y la API.
 
 1.  **Clonar el repositorio:**
     ```bash
@@ -54,7 +51,7 @@ Sigue estos pasos para configurar y ejecutar el proyecto en tu máquina local:
     ```bash
     python3 -m venv venv
     source venv/bin/activate  # En Linux/macOS
-    # venv\Scripts\activate   # En Windows
+    # venv\\Scripts\\activate   # En Windows
     ```
 
 3.  **Instalar las dependencias:**
@@ -84,21 +81,15 @@ Sigue estos pasos para configurar y ejecutar el proyecto en tu máquina local:
     ```bash
     python manage.py runserver
     ```
-    La aplicación estará disponible en `http://127.0.0.1:8000/`.
+    El **backend** de la aplicación estará disponible en `http://127.0.0.1:8000/`. Puedes acceder al panel de administración en `http://127.0.0.1:8000/admin/`.
 
 ## 🌐 Despliegue en Producción
 
-Este portafolio está desplegado en [Render](https://render.com/). La configuración incluye:
-*   **Web Service:** Para la aplicación Django.
-*   **PostgreSQL Database:** Para la persistencia de datos.
-*   **Comandos de Construcción y de Inicio** configurados para el entorno de Render.
-*   **Variables de Entorno** (`SECRET_KEY`, `DEBUG`, `ALLOWED_HOSTS`, `DATABASE_URL`) gestionadas de forma segura.
+La versión pública de este portafolio ahora utiliza un **frontend estático** desplegado en Netlify, que consume datos de una API (si se implementara una API pública para este backend).
 
 ## 🌍 Internacionalización (i18n)
 
-La aplicación soporta múltiples idiomas. Puedes cambiar el idioma usando el selector en la parte superior de la página.
-*   Las cadenas de texto en las plantillas se traducen automáticamente.
-*   El CV descargable cambia entre español e inglés según el idioma seleccionado.
+El backend de la aplicación soporta múltiples idiomas para la gestión de contenido.
 
 ## 📧 Contacto
 
